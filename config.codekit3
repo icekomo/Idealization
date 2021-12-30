@@ -21,100 +21,15 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/believe\/hero.jpg" : {
-      "ft" : 16384,
-      "iS" : 177181,
-      "jF" : 0,
+    "\/deploy\/img\/hero\/hero.png" : {
+      "ft" : 32768,
+      "iS" : 1487976,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/believe\/hero.jpg",
+      "oAP" : "\/deploy\/img\/hero\/hero.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/callout\/hero.jpg" : {
-      "ft" : 16384,
-      "iS" : 136452,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/callout\/hero.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/footer\/logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/footer\/logo.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/gallery\/gallery-1.jpg" : {
-      "ft" : 16384,
-      "iS" : 296053,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/gallery\/gallery-1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/gallery\/gallery-2.jpg" : {
-      "ft" : 16384,
-      "iS" : 120769,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/gallery\/gallery-2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/gallery\/gallery-3.jpg" : {
-      "ft" : 16384,
-      "iS" : 255869,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/gallery\/gallery-3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/header\/logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/header\/logo.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/hero.jpg" : {
-      "ft" : 16384,
-      "iS" : 365490,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -347,6 +262,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -361,6 +291,14 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/gsap-bonus.tgz" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/gsap-bonus.tgz",
+      "oF" : 0
     },
     "\/node_modules" : {
       "ft" : 65536,

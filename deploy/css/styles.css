@@ -365,22 +365,12 @@ ul li {
   list-style: none;
 }
 
-.content {
-  padding: 32px 0;
+.show-for-md {
+  display: none;
 }
 @media (min-width: 768px) {
-  .content {
-    padding: 48px 0;
-  }
-}
-@media (min-width: 1024px) {
-  .content {
-    padding: 56px 0;
-  }
-}
-@media (min-width: 1440px) {
-  .content {
-    padding: 64px 0;
+  .show-for-md {
+    display: block;
   }
 }
 
@@ -429,391 +419,84 @@ textarea {
     Header
 ============= */
 header {
-  position: fixed;
-  width: 100%;
   background-color: #fff;
-}
-header > div {
   display: grid;
   grid-template-columns: 20% auto;
-  grid-template-areas: "logo burger" "nav nav";
-  padding: 0px 16px 0;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  right: 0;
 }
-@media (min-width: 1024px) {
-  header > div {
-    grid-template-columns: 20% auto;
-    grid-template-areas: "logo nav";
-  }
-}
-header > div #logo {
-  grid-area: logo;
-}
-header > div #logo img {
-  cursor: pointer;
-  width: 60%;
-  padding: 16px 0;
-}
-@media (min-width: 1024px) {
-  header > div #logo img {
-    width: 30%;
-  }
-}
-header > div #burger {
-  grid-area: burger;
+header #logo-container {
+  padding: 0px 0 0px 0px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+}
+header #logo-container svg {
+  height: 30px;
+}
+@media (min-width: 1024px) {
+  header #logo-container svg {
+    height: 40px;
+  }
+}
+header aside {
+  padding: 10px 0;
+}
+header aside > div {
+  display: grid;
+  grid-template-columns: auto 20%;
   height: 100%;
-  font-size: 1.875rem;
+  width: 100%;
 }
-@media (min-width: 1024px) {
-  header > div #burger {
-    display: none !important;
-  }
-}
-header > div nav {
-  grid-area: nav;
-  background-color: #000;
-  padding: 16px 16px;
-  margin: 0 -16px;
-  display: none;
-}
-@media (min-width: 1024px) {
-  header > div nav {
-    display: block;
-    background-color: #fff;
-    display: block !important;
-  }
-}
-header > div nav ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
-  height: 100%;
-}
-@media (min-width: 1024px) {
-  header > div nav ul {
-    flex-direction: row;
-    align-items: center;
-  }
-}
-header > div nav ul li {
-  margin-bottom: 20px;
-}
-@media (min-width: 1024px) {
-  header > div nav ul li {
-    margin-left: 20px;
-    margin-bottom: 0;
-  }
-}
-header > div nav ul li button {
-  border: none;
-  background-color: transparent;
-  font-size: 1.25rem;
-  transition: 0.25s;
+header aside > div #mode-container {
+  align-items: center;
   cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  padding-right: 16px;
+}
+header aside > div #mode-container svg {
+  width: 40px;
+}
+header aside > div #mode-container ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+header aside > div #mode-container ul li {
+  border: 1px solid transparent;
+  display: flex;
+  font-size: 0.6875rem;
+  overflow: hidden;
+  width: 10px;
+}
+header aside > div #mode-container ul li div {
+  border: 1px solid transparent;
+  font-family: "Nova Mono", monospace;
+  width: 100%;
+}
+header aside > div #mode-container ul li div.dark {
+  color: #252525;
+}
+header aside > div #mode-container ul li div.light {
   color: #fff;
 }
-@media (min-width: 1024px) {
-  header > div nav ul li button {
-    color: #000;
-  }
-}
-header > div nav ul li button:hover {
-  color: #D87337;
+header aside > div #mode-container ul #last-letter {
+  display: none;
 }
 
 /* =============
     Footer
 ============= */
-footer {
-  background-color: #D87337;
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". footer .";
-  padding: 16px 0;
-}
-footer > div {
-  grid-area: footer;
-}
-footer > div section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-footer > div aside {
-  margin-top: -10px;
-  display: flex;
-  justify-content: flex-end;
-}
-footer > div aside ul {
-  right: 0px;
-  bottom: 0px;
-  display: flex;
-}
-footer > div aside ul li {
-  margin-left: 16px;
-}
-footer > div aside ul li a:link,
-footer > div aside ul li a:visited {
-  color: #fff;
-  transition: 0.25s;
-}
-footer > div aside ul li a:link:hover, footer > div aside ul li a:link:active,
-footer > div aside ul li a:visited:hover,
-footer > div aside ul li a:visited:active {
-  color: #000;
-}
-@media (min-width: 1440px) {
-  footer > div aside ul li a:link,
-footer > div aside ul li a:visited {
-    font-size: 1.875rem;
-  }
-}
-
-/* =============
-    Hero
-============= */
 #hero {
-  background-image: url("../img/hero.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 60vh;
-}
-@media (min-width: 768px) {
-  #hero {
-    height: 70vh;
-  }
-}
-@media (min-width: 1024px) {
-  #hero {
-    height: 80vh;
-  }
-}
-#hero div h1 {
-  font-weight: 300;
-  font-size: 2.75rem;
-  color: #fff;
-  text-align: center;
-}
-@media (min-width: 768px) {
-  #hero div h1 {
-    font-size: 3.75rem;
-  }
-}
-@media (min-width: 1024px) {
-  #hero div h1 {
-    padding-top: 10%;
-    padding-left: 10%;
-    text-align: left;
-    font-size: 5rem;
-  }
-}
-
-@media (min-width: 1440px) {
-  #believe {
-    display: grid;
-    grid-template-columns: auto 1440px auto;
-    grid-template-areas: ". believe .";
-  }
-}
-#believe > div {
-  display: grid;
-  gap: 24px;
-}
-@media (min-width: 768px) {
-  #believe > div {
-    grid-template-columns: 38vw auto;
-    grid-template-areas: "believe-l believe-r";
-  }
-}
-@media (min-width: 1024px) {
-  #believe > div {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (min-width: 1440px) {
-  #believe > div {
-    grid-area: believe;
-  }
-}
-#believe > div section {
-  margin: 0 16px;
-}
-@media (min-width: 768px) {
-  #believe > div section {
-    grid-area: believe-r;
-    display: flex;
-    align-items: center;
-  }
-}
-#believe > div section > div {
-  border-top: 3px solid #D87337;
-  border-bottom: 3px solid #D87337;
-  padding: 16px 0px;
-}
-#believe > div section > div h1 {
-  font-family: "Nunito", sans-serif;
-  font-size: 1.5625rem;
-  line-height: 1.75rem;
-  padding-bottom: 16px;
-  text-align: center;
-}
-@media (min-width: 768px) {
-  #believe > div section > div h1 {
-    font-size: 2.1875rem;
-    line-height: 2.1875rem;
-    text-align: left;
-  }
-}
-@media (min-width: 1440px) {
-  #believe > div section > div h1 {
-    font-size: 2.5rem;
-  }
-}
-@media (min-width: 768px) {
-  #believe > div section > div p {
-    font-size: 1.125rem;
-  }
-}
-#believe > div aside {
-  background-image: url("../img/believe/hero.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/hero/hero.png");
   height: 100vh;
-}
-@media (min-width: 768px) {
-  #believe > div aside {
-    grid-area: believe-l;
-    height: 50vh;
-  }
-}
-@media (min-width: 1024px) {
-  #believe > div aside {
-    height: 80vh;
-  }
-}
-
-@media (min-width: 768px) {
-  #gallery {
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". gallery .";
-  }
-}
-@media (min-width: 1440px) {
-  #gallery {
-    grid-template-columns: auto 1440px auto;
-  }
-}
-@media (min-width: 768px) {
-  #gallery > div {
-    grid-area: gallery;
-  }
-}
-#gallery > div ul {
-  display: grid;
-  gap: 24px;
-  grid-template-rows: repeat(3, 70vh);
-}
-@media (min-width: 768px) {
-  #gallery > div ul {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 70vh 35vh;
-    grid-template-areas: "g1 g1" "g2 g3";
-  }
-}
-@media (min-width: 1440px) {
-  #gallery > div ul {
-    grid-template-columns: 60% auto;
-    grid-template-rows: 35vh 35vh;
-    grid-template-areas: "g1 g2" "g1 g3";
-  }
-}
-#gallery > div ul li a:link, #gallery > div ul li a:visited {
+  width: 100%;
   background-size: cover;
   background-position: center;
-  height: 100%;
-  width: 100%;
-  display: inline-block;
-}
-@media (min-width: 768px) {
-  #gallery > div ul #gallery-1 {
-    background-position: bottom;
-    grid-area: g1;
-  }
-}
-#gallery > div ul #gallery-1 a {
-  background-image: url("../img/gallery/gallery-1.jpg");
-}
-@media (min-width: 768px) {
-  #gallery > div ul #gallery-2 {
-    grid-area: g2;
-  }
-}
-#gallery > div ul #gallery-2 a {
-  background-image: url("../img/gallery/gallery-2.jpg");
-}
-@media (min-width: 768px) {
-  #gallery > div ul #gallery-3 {
-    grid-area: g3;
-  }
-}
-#gallery > div ul #gallery-3 a {
-  background-image: url("../img/gallery/gallery-3.jpg");
-}
-
-#callout {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". callout .";
-}
-@media (min-width: 1440px) {
-  #callout {
-    grid-template-columns: auto 1440px auto;
-  }
-}
-#callout > div {
-  grid-area: callout;
-}
-#callout > div #circle-img {
-  background-image: url("../img/callout/hero.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 90vw;
-  height: 90vw;
-  border-radius: 100%;
-  margin: 0 auto;
-}
-@media (min-width: 768px) {
-  #callout > div #circle-img {
-    width: 50vw;
-    height: 50vw;
-    background-position: 0px 100%;
-  }
-}
-@media (min-width: 768px) {
-  #callout > div #circle-img {
-    width: 40vw;
-    height: 40vw;
-  }
-}
-@media (min-width: 1440px) {
-  #callout > div #circle-img {
-    width: 10vw;
-    height: 10vw;
-  }
-}
-#callout > div p {
-  line-height: 1.875rem;
-  font-size: 1.125rem;
-  margin-top: 16px;
-  text-align: justify;
-  padding: 0 15%;
-}
-@media (min-width: 1440px) {
-  #callout > div p {
-    padding: 0 25%;
-  }
+  background-color: #fff;
 }
