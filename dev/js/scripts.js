@@ -2,6 +2,7 @@
 
 import { Fancybox} from "@fancyapps/ui";
 
+console.log("hello");
 
 
 
