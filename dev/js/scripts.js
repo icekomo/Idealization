@@ -10,6 +10,7 @@
 // let header = document.querySelector("#header-content");
 // let headerHeight = header.offsetHeight;
 
+
 // console.log(headerHeight);
 
 // for (const marker of navButtons) {
