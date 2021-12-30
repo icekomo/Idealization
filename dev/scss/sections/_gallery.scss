@@ -1,0 +1,165 @@
+#gallery{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". gallery .";
+
+    @include xl{
+        grid-template-columns: auto 1440px auto;
+    }
+
+    >div{
+
+        grid-area: gallery;
+        ul{
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: 
+            "g1 g1"
+            "g1 g1"
+            "g8 g3"
+            "g4 g5"
+            "g6 g7"
+            "g2 g2"
+            "g2 g2"
+            "g10 g9"
+            "g11 g12"
+            "g14 g15"
+            "g16 g13"
+            "g17 g17"
+            "g17 g17";
+            gap:8px;
+            grid-template-rows: repeat(13, 200px);
+
+            @include md{
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(11, 200px);
+                grid-template-areas: 
+                    "g1 g1 g8"
+                    "g1 g1 g3"
+                    "g4 g5 g6"
+                    "g16 g7 g9"
+                    "g2 g2 g2"
+                    "g2 g2 g2"
+                    "g10 g11 g12"
+                    "g15 g15 g13"
+                    "g15 g15 g14"
+                    "g17 g17 g17"
+                    "g17 g17 g17";
+            }
+
+            @include lg{
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(9, 200px);
+                grid-template-areas: 
+                    "g1 g1 g8 g4"
+                    "g1 g1 g3 g5"
+                    "g16 g7 g9 g6"
+                    "g2 g2 g2 g10"
+                    "g2 g2 g2 g11"
+                    "g15 g15 g15 g12"
+                    "g15 g15 g15 g12"
+                    "g13 g17 g17 g17"
+                    "g14 g17 g17 g17";
+            }
+
+            li{
+                background-size: cover;
+                background-position: center;
+                height: 100%;
+                background-color: $black;
+
+                &:nth-child(1){
+                    grid-area: g1;
+                    background-image: url('../img/gallery/gallery-1.jpg')
+                }
+
+                &:nth-child(2){
+                    grid-area: g2;
+                    background-image: url('../img/gallery/gallery-2.jpg')
+                }
+
+                &:nth-child(3){
+                    grid-area: g3;
+                    background-image: url('../img/gallery/gallery-3.jpg')
+                }
+
+                &:nth-child(4){
+                    grid-area: g4;
+                    background-image: url('../img/gallery/gallery-4.jpg')
+                }
+
+                &:nth-child(5){
+                    grid-area: g5;
+                    background-image: url('../img/gallery/gallery-5.jpg')
+                }
+
+                &:nth-child(6){
+                    grid-area: g6;
+                    background-image: url('../img/gallery/gallery-6.jpg')
+                }
+
+                &:nth-child(7){
+                    grid-area: g7;
+                    background-image: url('../img/gallery/gallery-7.jpg')
+                }
+
+                &:nth-child(8){
+                    grid-area: g8;
+                    background-image: url('../img/gallery/gallery-8.jpg')
+                }
+
+                &:nth-child(9){
+                    grid-area: g9;
+                    background-image: url('../img/gallery/gallery-9.jpg')
+                }
+
+                &:nth-child(10){
+                    grid-area: g10;
+                    background-image: url('../img/gallery/gallery-10.jpg')
+                }
+
+                &:nth-child(11){
+                    grid-area: g11;
+                    background-image: url('../img/gallery/gallery-11.jpg')
+                }
+
+                &:nth-child(12){
+                    grid-area: g12;
+                    background-image: url('../img/gallery/gallery-12.jpg')
+                }
+
+                &:nth-child(13){
+                    grid-area: g13;
+                    background-image: url('../img/gallery/gallery-13.jpg')
+                }
+
+                &:nth-child(14){
+                    grid-area: g14;
+                    background-image: url('../img/gallery/gallery-14.jpg')
+                }
+
+                &:nth-child(15){
+                    grid-area: g15;
+                    background-image: url('../img/gallery/gallery-15.jpg')
+                }
+
+                &:nth-child(16){
+                    grid-area: g16;
+                    background-image: url('../img/gallery/gallery-16.jpg')
+                }
+
+                &:nth-child(17){
+                    grid-area: g17;
+                    background-image: url('../img/hero/hero.png')
+                }
+
+                a:link{
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        };
+    }
+}
