@@ -1,0 +1,225 @@
+/* =============
+    Header
+============= */
+/* =============
+    Header
+============= */
+header {
+    background-color: $white;
+    display: grid;
+    grid-template-columns: 20% auto;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    right:0;
+    // border: 1px solid red;
+
+    #logo-container {
+        padding: 0px 0 0px 0px;
+        display: flex;
+        align-items: center;
+
+        svg {
+            height: 30px;
+
+            @include lg {
+                height: 40px;
+            }
+        }
+    }
+
+    aside {
+        padding: 10px 0;
+
+        >div {
+            display: grid;
+            grid-template-columns: auto 20% 20%;
+            height: 100%;
+            width: 100%;
+
+            @include md {
+                grid-template-columns: auto 20% 20%;
+            }
+
+            @include lg {
+                grid-template-columns: auto 10% 10%;
+            }
+
+            #mode-container {
+                align-items: center;
+                border-right: 1px solid $dark-gray;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+
+                svg {
+                    width: 40px;
+                }
+
+                ul {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+
+                    li {
+                        border: 1px solid transparent;
+                        display: flex;
+                        font-size: rem-calc(11);
+                        overflow: hidden;
+                        width: 10px;
+
+                        div {
+                            border: 1px solid transparent;
+                            font-family: 'Nova Mono', monospace;
+                            width: 100%;
+
+                            &.dark {
+                                color: $charcoal;
+                            }
+
+                            &.light {
+                                color: $white;
+                            }
+                        }
+                    }
+
+                    #last-letter {
+                        display: none;
+                    }
+                }
+            }
+
+            #contact-container {
+                align-items: center;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                position: relative;
+
+                @include md{
+                    margin-top: -10px;
+                }
+
+                #envelope-container {
+                    position: relative;
+
+                    @include md{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    svg {
+                        position: relative;
+                        width: 27px;
+
+                        @include md {
+                            width: 30px;
+                        }
+                    }
+
+                    #slide-out-container {
+                        right: 20px;
+                        position: absolute;
+                        // z-index: 100;
+                        top:-12px;
+
+                        @include md{
+                            right: 50px;
+                            top: 0px;
+                        }
+    
+                        #slide-out {
+                            display: flex;
+                            margin-right: 10px;
+    
+                            section {
+                                display: block;
+    
+                                i {
+                                    margin-right: 4px;
+                                }
+    
+                                a:link,
+                                a:visited {
+                                    background-color: var(--gray);
+                                    color: var(--charcoal);
+                                    display: flex;
+                                    padding: 20px 8px;
+                                    text-decoration: none;
+                                    transition: 0.25s;
+                                    white-space: nowrap;
+                                    width: 100%;
+    
+                                    &:hover,
+                                    &:active {
+                                        background-color: var(--steel);
+                                        color: var(--charcoal);
+                                    }
+
+
+                                }
+    
+                                button {
+                                    background-color: var(--gray);
+                                    color: var(--charcoal);
+                                    border: none;
+                                    display: flex;
+                                    height: 100%;
+                                    padding: 20px 8px;
+                                    transition: 0.25s;
+                                    white-space: nowrap;
+    
+                                    &:hover {
+                                        background-color: var(--steel);
+                                        color: var(--charcoal);
+                                    }
+                                }
+                            }
+    
+                            #copy-btn {
+                                border-left: 1px solid var(--white);
+                            }
+                        }
+                    }
+                }
+
+                #contact-title{
+                    @include md{
+                        position: relative;
+                        margin-top: -4px;
+                    }
+                    ul {
+                        display: flex;
+                        justify-content: center;
+
+                        li {
+                            border: 1px solid transparent;
+                            display: flex;
+                            font-size: rem-calc(11);
+                            overflow: hidden;
+                            width: 10px;
+
+                            div {
+                                border: 1px solid transparent;
+                                font-family: 'Nova Mono', monospace;
+                                width: 100%;
+
+                                &.dark {
+                                    color: $charcoal;
+                                }
+
+                                &.light {
+                                    color: $white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
