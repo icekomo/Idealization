@@ -387,6 +387,7 @@ body {
 
 h1 {
   font-weight: 300;
+  color: #0D242B;
 }
 
 h1, h2, h3, h4 {
@@ -402,6 +403,12 @@ p {
 /* =============
     Buttons
 ============= */
+button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
 /* =============
     Forms
 ============= */
@@ -428,8 +435,6 @@ textarea {
 ============= */
 header {
   background-color: #fff;
-  display: grid;
-  grid-template-columns: 20% auto;
   left: 0;
   position: fixed;
   top: 0;
@@ -437,64 +442,33 @@ header {
   z-index: 100;
   right: 0;
 }
-header #logo-container {
-  padding: 0px 0 0px 0px;
-  display: flex;
-  align-items: center;
-}
-header #logo-container svg {
-  height: 30px;
-}
-@media (min-width: 1024px) {
-  header #logo-container svg {
-    height: 40px;
-  }
-}
-header aside {
-  padding: 10px 0;
-}
-header aside > div {
+header > div {
+  padding: 8px 16px;
   display: grid;
-  grid-template-columns: auto 20%;
-  height: 100%;
-  width: 100%;
+  grid-template-columns: auto 20% 20%;
 }
-header aside > div #mode-container {
-  align-items: center;
-  cursor: pointer;
+header > div #logo-container svg {
+  width: 30px;
+}
+header > div #mode-container {
   display: flex;
-  justify-content: flex-end;
-  text-align: center;
-  padding-right: 16px;
+  justify-content: flex-start;
+  align-items: center;
 }
-header aside > div #mode-container svg {
+header > div #mode-container svg {
   width: 40px;
 }
-header aside > div #mode-container ul {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-header aside > div #mode-container ul li {
-  border: 1px solid transparent;
-  display: flex;
-  font-size: 0.6875rem;
-  overflow: hidden;
-  width: 10px;
-}
-header aside > div #mode-container ul li div {
-  border: 1px solid transparent;
-  font-family: "Nova Mono", monospace;
-  width: 100%;
-}
-header aside > div #mode-container ul li div.dark {
-  color: #252525;
-}
-header aside > div #mode-container ul li div.light {
-  color: #fff;
-}
-header aside > div #mode-container ul #last-letter {
+header > div #mode-container svg #sun-shape {
   display: none;
+}
+header > div #contact-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-left: 1px solid #333;
+}
+header > div #contact-container svg {
+  width: 35px;
 }
 
 /* =============
@@ -628,4 +602,52 @@ header aside > div #mode-container ul #last-letter {
   display: inline-block;
   width: 100%;
   height: 100%;
+}
+
+#contact {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: 1000;
+}
+#contact > div {
+  background-color: #fff;
+  padding: 5px 15px 15px;
+  border-radius: 10px;
+  color: #0D242B;
+  width: 80%;
+}
+#contact > div #close-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+#contact > div #close-container svg {
+  width: 40px;
+}
+#contact > div #contact-options {
+  display: flex;
+  flex-direction: column;
+}
+#contact > div #contact-options button {
+  border: none;
+  background-color: transparent;
+  background-color: #ff4545;
+  padding: 10px;
+  margin-top: 16px;
+  color: #fff;
+  transition: 0.25s;
+  cursor: pointer;
+}
+#contact > div #contact-options button:hover {
+  background-color: #1d3557;
+}
+#contact > div #contact-options button i {
+  margin-right: 10px;
 }

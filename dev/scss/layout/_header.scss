@@ -3,8 +3,6 @@
 ============= */
 header {
     background-color: $white;
-    display: grid;
-    grid-template-columns: 20% auto;
     left: 0;
     position: fixed;
     top: 0;
@@ -12,73 +10,115 @@ header {
     z-index: 100;
     right:0;
 
-    #logo-container {
-        padding: 0px 0 0px 0px;
-        display: flex;
-        align-items: center;
+    >div{
+        padding: 8px 16px;
+        display: grid;
+        grid-template-columns: auto 20% 20%;
 
-        svg {
-            height: 30px;
+        #logo-container{
+            // border: 1px solid red;
 
-            @include lg {
-                height: 40px;
+            svg{
+                width: 30px;
+                
+            }
+        }
+
+        #mode-container{
+            // border: 1px solid red;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            
+            svg{
+                width: 40px;
+
+                #sun-shape{
+                    display: none;
+                }
+            }
+        }
+
+        #contact-container{
+            // border: 1px solid red;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            border-left: 1px solid #333;
+            svg{
+                width: 35px;
             }
         }
     }
 
-    aside {
-        padding: 10px 0;
+    // #logo-container {
+    //     padding: 0px 0 0px 0px;
+    //     display: flex;
+    //     align-items: center;
 
-        >div {
-            display: grid;
-            grid-template-columns: auto 20%;
-            height: 100%;
-            width: 100%;
+    //     svg {
+    //         height: 30px;
 
-            #mode-container {
-                align-items: center;
-                cursor: pointer;
-                display: flex;
-                justify-content: flex-end;
-                text-align: center;
-                padding-right: 16px;
+    //         @include lg {
+    //             height: 40px;
+    //         }
+    //     }
+    // }
 
-                svg {
-                    width: 40px;
-                }
+    // aside {
+    //     padding: 10px 0;
 
-                ul {
-                    display: flex;
-                    justify-content: center;
-                    width: 100%;
+    //     >div {
+    //         display: grid;
+    //         grid-template-columns: auto 20%;
+    //         height: 100%;
+    //         width: 100%;
 
-                    li {
-                        border: 1px solid transparent;
-                        display: flex;
-                        font-size: rem-calc(11);
-                        overflow: hidden;
-                        width: 10px;
+    //         #mode-container {
+    //             align-items: center;
+    //             cursor: pointer;
+    //             display: flex;
+    //             justify-content: flex-end;
+    //             text-align: center;
+    //             padding-right: 16px;
 
-                        div {
-                            border: 1px solid transparent;
-                            font-family: 'Nova Mono', monospace;
-                            width: 100%;
+    //             svg {
+    //                 width: 40px;
+    //             }
 
-                            &.dark {
-                                color: $charcoal;
-                            }
+    //             ul {
+    //                 display: flex;
+    //                 justify-content: center;
+    //                 width: 100%;
 
-                            &.light {
-                                color: $white;
-                            }
-                        }
-                    }
+    //                 li {
+    //                     border: 1px solid transparent;
+    //                     display: flex;
+    //                     font-size: rem-calc(11);
+    //                     overflow: hidden;
+    //                     width: 10px;
 
-                    #last-letter {
-                        display: none;
-                    }
-                }
-            } 
-        }
-    }
+    //                     div {
+    //                         border: 1px solid transparent;
+    //                         font-family: 'Nova Mono', monospace;
+    //                         width: 100%;
+
+    //                         &.dark {
+    //                             color: $charcoal;
+    //                         }
+
+    //                         &.light {
+    //                             color: $white;
+    //                         }
+    //                     }
+    //                 }
+
+    //                 #last-letter {
+    //                     display: none;
+    //                 }
+    //             }
+    //         } 
+    //     }
+    // }
 }

@@ -1,8 +1,52 @@
-// import { Fancybox } from "@fancyapps/ui/src/Fancybox/Fancybox.js";
-
 import { Fancybox} from "@fancyapps/ui";
 
-console.log("hello");
+import { headerTL } from "./headerAnimations.js";
+import { darkModeTL } from "./darkMode.js";
+import { contactTL } from "./contact.js";
+
+
+let darkMode = false;
+let darkBtn = document.querySelector("#mode-btn");
+darkBtn.addEventListener("click",function(){
+    if(darkMode === false){
+        headerTL.play();
+        darkMode = true;
+        // darkMode timelines
+        darkModeTL.play();
+    }else{
+        headerTL.reverse();
+        darkMode = false;
+        // darkMode timelines
+        darkModeTL.reverse();
+    }
+});
+
+let canSeeContact = false;
+
+let contactBtn = document.querySelectorAll(".contact-btn");
+for(let i = 0; i<contactBtn.length; i ++){
+    contactBtn[i].addEventListener("click",e =>{
+
+        if(e.target !== e.currentTarget){
+            console.log("child clicked") 
+        }else{
+            console.log("parent clicked") 
+        }
+
+
+        if(canSeeContact === false){
+            contactTL.play();
+            canSeeContact = true;
+        }else{
+            contactTL.reverse();
+            canSeeContact = false;
+        }
+    });
+}
+
+
+
+
 
 
 
