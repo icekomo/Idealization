@@ -447,6 +447,16 @@ header > div {
   display: grid;
   grid-template-columns: auto 20% 20%;
 }
+@media (min-width: 768px) {
+  header > div {
+    grid-template-columns: auto 10% 10%;
+  }
+}
+@media (min-width: 1024px) {
+  header > div {
+    grid-template-columns: auto 5% 5%;
+  }
+}
 header > div #logo-container svg {
   width: 30px;
 }
