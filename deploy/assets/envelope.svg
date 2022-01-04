@@ -1,6 +1,0 @@
-<svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="envelope">
-<rect id="e-outline" x="0.5" y="0.5" width="27" height="15" rx="1.9" stroke="#333333"/>
-<path id="flap" d="M1 1C1 1 14.2331 15 27 1" stroke="#333333" stroke-linecap="round"/>
-</g>
-</svg>
