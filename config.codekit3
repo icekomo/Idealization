@@ -7,47 +7,471 @@
       "uuidString" : "72160997-58B0-422D-94BA-B62F026FD756"
     }
   ],
-  "creatorBuild" : "34335",
+  "creatorBuild" : "34434",
   "files" : {
-    "\/deploy\/assets\/close.svg" : {
+    "\/assets\/115_retaining wall stone blocks texture-seamless-hr\/115_retaining wall stone blocks texture-demo.jpg" : {
+      "ft" : 16384,
+      "iS" : 285391,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/115_retaining wall stone blocks texture-seamless-hr\/115_retaining wall stone blocks texture-demo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/115_retaining wall stone blocks texture-seamless-hr\/115_retaining wall stone blocks texture-seamless_hr_bump.jpg" : {
+      "ft" : 16384,
+      "iS" : 810026,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/115_retaining wall stone blocks texture-seamless-hr\/115_retaining wall stone blocks texture-seamless_hr_bump.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/115_retaining wall stone blocks texture-seamless-hr\/115_retaining wall stone blocks texture-seamless_hr_DIFFUSE.jpg" : {
+      "ft" : 16384,
+      "iS" : 2964633,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/115_retaining wall stone blocks texture-seamless-hr\/115_retaining wall stone blocks texture-seamless_hr_DIFFUSE.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/115_retaining wall stone blocks texture-seamless-hr\/115_retaining wall stone blocks texture-seamless_hr.jpg" : {
+      "ft" : 16384,
+      "iS" : 1231986,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/115_retaining wall stone blocks texture-seamless-hr\/115_retaining wall stone blocks texture-seamless_hr.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/115_retaining wall stone blocks texture-seamless-hr\/115_retaining wall stone blocks texture-seamless-hr_ambient occlusion.jpg" : {
+      "ft" : 16384,
+      "iS" : 857807,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/115_retaining wall stone blocks texture-seamless-hr\/115_retaining wall stone blocks texture-seamless-hr_ambient occlusion.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/115_retaining wall stone blocks texture-seamless-hr\/115_retaining wall stone blocks texture-seamless-hr_displacement.jpg" : {
+      "ft" : 16384,
+      "iS" : 1161804,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/115_retaining wall stone blocks texture-seamless-hr\/115_retaining wall stone blocks texture-seamless-hr_displacement.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/115_retaining wall stone blocks texture-seamless-hr\/115_retaining wall stone blocks texture-seamless-hr_normal.jpg" : {
+      "ft" : 16384,
+      "iS" : 4579560,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/115_retaining wall stone blocks texture-seamless-hr\/115_retaining wall stone blocks texture-seamless-hr_normal.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/115_retaining wall stone blocks texture-seamless-hr\/115_retaining wall stone blocks texture-seamless-hr_specular.jpg" : {
+      "ft" : 16384,
+      "iS" : 1108566,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/115_retaining wall stone blocks texture-seamless-hr\/115_retaining wall stone blocks texture-seamless-hr_specular.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/124_old wood plank PBR texture-seamless_hr\/124_old wood plank DEMO.jpg" : {
+      "ft" : 16384,
+      "iS" : 487812,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/124_old wood plank PBR texture-seamless_hr\/124_old wood plank DEMO.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/124_old wood plank PBR texture-seamless_hr\/124_old wood plank_DIFF.jpg" : {
+      "ft" : 16384,
+      "iS" : 6831460,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/124_old wood plank PBR texture-seamless_hr\/124_old wood plank_DIFF.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/124_old wood plank PBR texture-seamless_hr\/124_old wood plank_DISPL.jpg" : {
+      "ft" : 16384,
+      "iS" : 2091843,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/124_old wood plank PBR texture-seamless_hr\/124_old wood plank_DISPL.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/124_old wood plank PBR texture-seamless_hr\/124_old wood plank_NORM.jpg" : {
+      "ft" : 16384,
+      "iS" : 5917710,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/124_old wood plank PBR texture-seamless_hr\/124_old wood plank_NORM.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/124_old wood plank PBR texture-seamless_hr\/124_old wood plank_SPEC.jpg" : {
+      "ft" : 16384,
+      "iS" : 4202225,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/124_old wood plank PBR texture-seamless_hr\/124_old wood plank_SPEC.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/124_old wood plank PBR texture-seamless_hr\/124_old wood plank-AO.jpg" : {
+      "ft" : 16384,
+      "iS" : 1828684,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/124_old wood plank PBR texture-seamless_hr\/124_old wood plank-AO.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/124_old wood plank PBR texture-seamless_hr\/124_old wood plank-Cracks.jpg" : {
+      "ft" : 16384,
+      "iS" : 969859,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/124_old wood plank PBR texture-seamless_hr\/124_old wood plank-Cracks.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/8414592825750-architecture_stones-walls_stone-blocks_retaining-wall-stone-blocks-texture-seamless-20885_HR.zip" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/8414592825750-architecture_stones-walls_stone-blocks_retaining-wall-stone-blocks-texture-seamless-20885_HR.zip",
+      "oF" : 0
+    },
+    "\/assets\/close.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/assets\/close.svg",
+      "oAP" : "\/assets\/close.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/assets\/envelope.svg" : {
+    "\/assets\/dikhololo_night_4k.exr" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/dikhololo_night_4k.exr",
+      "oF" : 0
+    },
+    "\/assets\/envelope.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/assets\/envelope.svg",
+      "oAP" : "\/assets\/envelope.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/assets\/logo.svg" : {
+    "\/assets\/house examples\/33-Beautiful-Modern-Farmhouse-Exterior-Design-Ideas-7.webp" : {
+      "ft" : 8388608,
+      "iS" : 114924,
+      "oA" : 0,
+      "oAP" : "\/assets\/house examples\/33-Beautiful-Modern-Farmhouse-Exterior-Design-Ideas-7.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/assets\/house examples\/372c9fe9-f251-447b-bcd5-9002cca15fa5-farmhouse_header.avif" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/house examples\/372c9fe9-f251-447b-bcd5-9002cca15fa5-farmhouse_header.avif",
+      "oF" : 0
+    },
+    "\/assets\/house examples\/c3434ce70a3aea32681b400cf9982b77.jpg" : {
+      "ft" : 16384,
+      "iS" : 51808,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/house examples\/c3434ce70a3aea32681b400cf9982b77.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/house examples\/cranberry-gardens-w-front_m.jpg" : {
+      "ft" : 16384,
+      "iS" : 37490,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/house examples\/cranberry-gardens-w-front_m.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/house examples\/farmhouse-1.webp" : {
+      "ft" : 8388608,
+      "iS" : 460746,
+      "oA" : 0,
+      "oAP" : "\/assets\/house examples\/farmhouse-1.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/assets\/house examples\/IMG_7807.jpeg" : {
+      "ft" : 16384,
+      "iS" : 596764,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/house examples\/IMG_7807.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/house examples\/modern farmhouse with back porch for entertaining.jpg" : {
+      "ft" : 16384,
+      "iS" : 46702,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/house examples\/modern farmhouse with back porch for entertaining.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/house examples\/modern-farmhouse--Harrison-Design-Modern-Farmhouse-Outdoor4122_marked.jpg" : {
+      "ft" : 16384,
+      "iS" : 347897,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/house examples\/modern-farmhouse--Harrison-Design-Modern-Farmhouse-Outdoor4122_marked.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/house examples\/Modern-Farmhouse-Design-Gardner-Homes-01-1-Kindesign.jpg" : {
+      "ft" : 16384,
+      "iS" : 76380,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/house examples\/Modern-Farmhouse-Design-Gardner-Homes-01-1-Kindesign.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/house examples\/Screen Shot 2022-01-02 at 1.21.16 PM.png" : {
+      "ft" : 32768,
+      "iS" : 4675872,
+      "oA" : 0,
+      "oAP" : "\/assets\/house examples\/Screen Shot 2022-01-02 at 1.21.16 PM.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/house examples\/w991x660.jpg" : {
+      "ft" : 16384,
+      "iS" : 117016,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/house examples\/w991x660.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/house.zip" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/house.zip",
+      "oF" : 0
+    },
+    "\/assets\/house\/house-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 417202,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/house\/house-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/house\/house.Alpha.jpg" : {
+      "ft" : 16384,
+      "iS" : 51627,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/house\/house.Alpha.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/house\/house.exr" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/house\/house.exr",
+      "oF" : 0
+    },
+    "\/assets\/house\/house.jpg" : {
+      "ft" : 16384,
+      "iS" : 2542417,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/house\/house.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/assets\/logo.svg",
+      "oAP" : "\/assets\/logo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/assets\/mode.svg" : {
+    "\/assets\/mode.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/assets\/mode.svg",
+      "oAP" : "\/assets\/mode.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/assets\/spaichingen_hill_4k.exr" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/spaichingen_hill_4k.exr",
+      "oF" : 0
+    },
+    "\/assets\/spruit_sunrise_4k.exr" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/spruit_sunrise_4k.exr",
+      "oF" : 0
+    },
+    "\/assets\/the_sky_is_on_fire_4k.exr" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/the_sky_is_on_fire_4k.exr",
+      "oF" : 0
     },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
@@ -495,6 +919,22 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/design\/house.skp" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/house.skp",
+      "oF" : 0
+    },
+    "\/design\/house~.skp" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/house~.skp",
+      "oF" : 0
     },
     "\/dev\/content\/gallery.kit" : {
       "cB" : 0,
@@ -1214,10 +1654,6 @@
         "active" : 0,
         "optionString" : "'1tbs', {'allowSingleLine': true}"
       },
-      "callback-return" : {
-        "active" : 0,
-        "optionString" : "['callback', 'cb', 'next']"
-      },
       "camelcase" : {
         "active" : 0,
         "optionString" : "{'properties': 'always', 'ignoreDestructuring': false, 'ignoreImports': false}"
@@ -1309,6 +1745,10 @@
         "active" : 0,
         "optionString" : "'expression'"
       },
+      "function-call-argument-newline" : {
+        "active" : 0,
+        "optionString" : "'always'"
+      },
       "function-paren-newline" : {
         "active" : 0,
         "optionString" : "'multiline'"
@@ -1321,9 +1761,6 @@
         "active" : 0,
         "optionString" : "{'allowImplicit': false}"
       },
-      "global-require" : {
-        "active" : 0
-      },
       "grouped-accessor-pairs" : {
         "active" : 0,
         "optionString" : "'anyOrder'"
@@ -1331,11 +1768,7 @@
       "guard-for-in" : {
         "active" : 0
       },
-      "handle-callback-err" : {
-        "active" : 0,
-        "optionString" : "'err'"
-      },
-      "id-blacklist" : {
+      "id-denylist" : {
         "active" : 0,
         "optionString" : "'data', 'err', 'e', 'cb', 'callback'"
       },
@@ -1459,9 +1892,6 @@
         "active" : 0,
         "optionString" : "{'allow': ['~'], 'int32Hint': true}"
       },
-      "no-buffer-constructor" : {
-        "active" : 0
-      },
       "no-caller" : {
         "active" : 0
       },
@@ -1488,6 +1918,9 @@
       },
       "no-const-assign" : {
         "active" : 1
+      },
+      "no-constant-binary-expression" : {
+        "active" : 0
       },
       "no-constant-condition" : {
         "active" : 1,
@@ -1521,6 +1954,9 @@
         "active" : 1
       },
       "no-dupe-keys" : {
+        "active" : 1
+      },
+      "no-duplicate-case" : {
         "active" : 1
       },
       "no-duplicate-imports" : {
@@ -1564,7 +2000,7 @@
       "no-extra-boolean-cast" : {
         "active" : 1
       },
-      "no-extra-labels" : {
+      "no-extra-label" : {
         "active" : 0
       },
       "no-extra-parens" : {
@@ -1575,7 +2011,8 @@
         "active" : 1
       },
       "no-fallthrough" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEmptyCase': false}"
       },
       "no-floating-decimal" : {
         "active" : 0
@@ -1652,10 +2089,6 @@
         "active" : 0,
         "optionString" : "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
       },
-      "no-mixed-requires" : {
-        "active" : 0,
-        "optionString" : "{'grouping': false, 'allowCall': false }"
-      },
       "no-mixed-spaces-and-tabs" : {
         "active" : 0,
         "optionString" : ""
@@ -1690,9 +2123,6 @@
       "no-new-object" : {
         "active" : 0
       },
-      "no-new-require" : {
-        "active" : 0
-      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -1715,18 +2145,9 @@
         "active" : 0,
         "optionString" : "{'props': false}"
       },
-      "no-path-concat" : {
-        "active" : 0
-      },
       "no-plusplus" : {
         "active" : 0,
         "optionString" : "{'allowForLoopAfterthoughts': false}"
-      },
-      "no-process-env" : {
-        "active" : 0
-      },
-      "no-process-exit" : {
-        "active" : 0
       },
       "no-promise-executor-return" : {
         "active" : 0
@@ -1753,9 +2174,6 @@
         "optionString" : "'event', 'fdescribe'"
       },
       "no-restricted-imports" : {
-        "active" : 0
-      },
-      "no-restricted-modules" : {
         "active" : 0,
         "optionString" : ""
       },
@@ -1800,10 +2218,6 @@
       },
       "no-sparse-arrays" : {
         "active" : 1
-      },
-      "no-sync" : {
-        "active" : 0,
-        "optionString" : "{'allowAtRootLevel': false}"
       },
       "no-tabs" : {
         "active" : 0,
@@ -2036,10 +2450,6 @@
       "require-await" : {
         "active" : 0
       },
-      "require-jsdoc" : {
-        "active" : 0,
-        "optionString" : "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
-      },
       "require-unicode-regexp" : {
         "active" : 0
       },
@@ -2124,10 +2534,6 @@
       "use-isnan" : {
         "active" : 1,
         "optionString" : "{'enforceForSwitchCase': true, 'enforceForIndexOf': false}"
-      },
-      "valid-jsdoc" : {
-        "active" : 0,
-        "optionString" : "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
       },
       "valid-typeof" : {
         "active" : 1,
@@ -2397,6 +2803,7 @@
       "createDeclarationFile" : 0,
       "jsxMode" : 0,
       "minifierStyle" : 0,
+      "moduleDetectionType" : 0,
       "moduleResolutionType" : 0,
       "moduleType" : 2,
       "removeComments" : 0,
@@ -2629,6 +3036,10 @@
         "active" : 0,
         "flagValue" : -1
       },
+      "keep_numbers" : {
+        "active" : 0,
+        "flagValue" : -1
+      },
       "keep_quoted_props" : {
         "active" : 0,
         "flagValue" : -1
@@ -2652,6 +3063,10 @@
       "passes" : {
         "active" : 1,
         "flagValue" : 1
+      },
+      "preserve_annotations" : {
+        "active" : 0,
+        "flagValue" : -1
       },
       "properties" : {
         "active" : 1,
@@ -2755,6 +3170,10 @@
       },
       "webkit" : {
         "active" : 0,
+        "flagValue" : -1
+      },
+      "wrap_func_args" : {
+        "active" : 1,
         "flagValue" : -1
       },
       "wrap_iife" : {
