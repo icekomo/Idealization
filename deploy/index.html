@@ -82,20 +82,23 @@
 
     <section id="contact">
         <div class="white-bg">
-            <section id="close-container" >
-                <button class="contact-btn">
-                    <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <g id="close-btn">
-                          <rect id="top" x="5.023" y="18.489" width="18.667" height="1.067" rx=".533" transform="rotate(-45 5.023 18.49)" fill="#000" class="blue-fill"/>
-                          <rect id="bottom" x="5.777" y="5.29" width="18.667" height="1.067" rx=".533" transform="rotate(45 5.777 5.29)" fill="#000" class="blue-fill"/>
-                          <circle id="outline" cx="12" cy="12" r="11.467" stroke="#000" stroke-width="1.067" class="blue-stroke"/>
-                        </g>
-                      </svg>
-                </button>
-                
-            </section>
+            <div id="contact-top-bar">
+                <h1 class="blue-txt">Lets do this!</h1>
     
-            <h1 class="blue-txt">Lets do this!</h1>
+                <section id="close-container" >
+                    <button class="contact-btn">
+                        <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <g id="close-btn">
+                                <circle id="outline" cx="12" cy="12" r="11.467" class="blue-stroke" fill="var(--red)"/>
+                                <rect id="top" x="5.023" y="18.489" width="18.667" height="1.067" rx=".533" transform="rotate(-45 5.023 18.49)" fill="var(--white)"         class="blue-fill"/>
+                                <rect id="bottom" x="5.777" y="5.29" width="18.667" height="1.067" rx=".533" transform="rotate(45 5.777 5.29)" fill="var(--white)" class="blue-fill"/>
+                             
+                            </g>
+                          </svg>
+                    </button>
+                </section>
+            </div>
+           
             <section id="contact-options">
                 <button><i class="fal fa-paper-plane"></i>open email</button>
                 <button><i class="fal fa-file-import"></i>copy to clipboard</button>

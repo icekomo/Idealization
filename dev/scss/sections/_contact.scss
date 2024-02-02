@@ -8,8 +8,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    // background-color: rgba(0,0,0,0.55);
-    background-color: rgba(255,255,255,0.55);
+    background-color: rgba(0,0,0,0.55);
+    // background-color: rgba(255,255,255,0.55);
     z-index: 1000;
 
     >div{
@@ -19,38 +19,60 @@
         color: #0D242B;
         width: 80%;
 
+        @include md{
+            width: 50%;
+        }
+
+        @include lg{
+            width: 30%;
+        }
+
+        @include xl{
+            width: 450px;
+        }
+
+        #contact-top-bar{
+            display: grid;
+            grid-template-columns: 75% auto;
+            align-items: center;
+
             #close-container{
                 display: flex;
                 justify-content: flex-end;
-                width: 100%;
-                // border: 1px solid red;
+                margin-left: auto;
+
+                #contact-btn{
+                    width: 10px;
+                    border: 1px solid blue;
+                }
 
                 svg{
                     width: 30px;
                 }
-            }
+            } 
+        }  
+        #contact-options{
 
-            #contact-options{
-                display: flex;
-                flex-direction: column;
-                button{
-                    border: none;
-                    background-color: transparent;
-                    background-color: #ff4545;
-                    padding: 10px;
-                    margin-top: 16px;
-                    color:$white;
-                    transition: 0.25s;
-                    cursor: pointer;
+            button{
+                border: none;
+                background-color: transparent;
+                background-color: var(--dark-steel);
+                padding: 10px;
+                margin-top: 16px;
+                color:var(--white);
+                transition: 0.25s;
+                cursor: pointer;
+                width: 100%;
+                // margin: 16px;
 
-                    &:hover{
-                        background-color: #1d3557;
-                    }
+                &:hover{
+                    background-color: var(--dark-gray);
+                }
 
-                    i{
-                        margin-right: 10px;
-                    }
+                i{
+                    margin-right: 10px;
                 }
             }
+        }
     }
 }

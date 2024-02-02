@@ -975,6 +975,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/design\/jpg\/house-3.png" : {
+      "ft" : 32768,
+      "iS" : 1798144,
+      "oA" : 0,
+      "oAP" : "\/design\/jpg\/house-3.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/dev\/content\/gallery.kit" : {
       "cB" : 0,
       "ft" : 2048,
