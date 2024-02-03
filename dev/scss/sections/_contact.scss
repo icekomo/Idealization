@@ -12,7 +12,7 @@
     // background-color: rgba(255,255,255,0.55);
     z-index: 1000;
 
-    >div{
+    .white-bg{
         background-color: $white;
         padding: 5px 15px 15px;
         border-radius: 10px;
@@ -41,9 +41,12 @@
                 justify-content: flex-end;
                 margin-left: auto;
 
-                #contact-btn{
-                    width: 10px;
-                    border: 1px solid blue;
+                .contact-btn{
+                    width: 25px;
+
+                    svg{
+                        width: 100%;
+                    }
                 }
 
                 svg{
@@ -52,6 +55,10 @@
             } 
         }  
         #contact-options{
+
+            display: grid;
+            grid-template-columns: 50% auto;
+            gap: 16px;
 
             button{
                 border: none;

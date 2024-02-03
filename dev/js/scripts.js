@@ -33,10 +33,10 @@ for(let i = 0; i<contactBtn.length; i ++){
             console.log("parent clicked") 
         }
 
-
         if(canSeeContact === false){
             contactTL.play();
             canSeeContact = true;
+
         }else{
             contactTL.reverse();
             canSeeContact = false;
@@ -44,6 +44,12 @@ for(let i = 0; i<contactBtn.length; i ++){
     });
 }
 
+
+// let contactBG = document.querySelector(".white-bg");
+// contactBG.addEventListener("click",()=>{
+//         contactTL.reverse();
+//             canSeeContact = false;
+// })
 
 
 

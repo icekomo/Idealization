@@ -608,7 +608,7 @@ header > div #contact-container svg {
   background-color: rgba(0, 0, 0, 0.55);
   z-index: 1000;
 }
-#contact > div {
+#contact .white-bg {
   background-color: #fff;
   padding: 5px 15px 15px;
   border-radius: 10px;
@@ -616,38 +616,45 @@ header > div #contact-container svg {
   width: 80%;
 }
 @media (min-width: 768px) {
-  #contact > div {
+  #contact .white-bg {
     width: 50%;
   }
 }
 @media (min-width: 1024px) {
-  #contact > div {
+  #contact .white-bg {
     width: 30%;
   }
 }
 @media (min-width: 1440px) {
-  #contact > div {
+  #contact .white-bg {
     width: 450px;
   }
 }
-#contact > div #contact-top-bar {
+#contact .white-bg #contact-top-bar {
   display: grid;
   grid-template-columns: 75% auto;
   align-items: center;
 }
-#contact > div #contact-top-bar #close-container {
+#contact .white-bg #contact-top-bar #close-container {
   display: flex;
   justify-content: flex-end;
   margin-left: auto;
 }
-#contact > div #contact-top-bar #close-container #contact-btn {
-  width: 10px;
-  border: 1px solid blue;
+#contact .white-bg #contact-top-bar #close-container .contact-btn {
+  width: 25px;
 }
-#contact > div #contact-top-bar #close-container svg {
+#contact .white-bg #contact-top-bar #close-container .contact-btn svg {
+  width: 100%;
+}
+#contact .white-bg #contact-top-bar #close-container svg {
   width: 30px;
 }
-#contact > div #contact-options button {
+#contact .white-bg #contact-options {
+  display: grid;
+  grid-template-columns: 50% auto;
+  gap: 16px;
+}
+#contact .white-bg #contact-options button {
   border: none;
   background-color: transparent;
   background-color: var(--dark-steel);
@@ -658,9 +665,9 @@ header > div #contact-container svg {
   cursor: pointer;
   width: 100%;
 }
-#contact > div #contact-options button:hover {
+#contact .white-bg #contact-options button:hover {
   background-color: var(--dark-gray);
 }
-#contact > div #contact-options button i {
+#contact .white-bg #contact-options button i {
   margin-right: 10px;
 }
