@@ -1,0 +1,24 @@
+/* =============
+    Who
+============= */
+#who{
+    text-align: center;
+    padding: 100px 0;
+
+    #percent{
+        background-color: var(--blue);
+        padding: 24px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+        h1{
+            color: var(--white);
+            font-size: rem-calc(70);
+            font-weight: 700;
+        }
+    }
+}

@@ -1,5 +1,7 @@
+/* =============
+    Contact
+============= */
 #contact{
-    
     position: fixed;
     top:0;
     left:0;
@@ -52,7 +54,6 @@
                         width: 100%;
                     }
                 }
-
                 svg{
                     width: 30px;
                 }
@@ -96,13 +97,3 @@
         }
     }
 }
-
-// #contact-bg{
-//     height: 100%;
-//     width: 100vw;
-//     background-color: rgba(0,0,0,0.55);
-//     position: fixed;
-//     // z-index: 900;
-//     // display: none;
-//     cursor: pointer;
-// }

@@ -478,6 +478,9 @@ footer {
   text-align: center;
 }
 
+/* =============
+    Hero
+============= */
 #hero {
   background-image: url("../img/hero/hero-1.png");
   height: 100vh;
@@ -506,6 +509,9 @@ footer {
   font-size: 5.625rem;
 }
 
+/* =============
+    Gallery
+============= */
 #gallery {
   display: grid;
   grid-template-columns: 16px auto 16px;
@@ -621,6 +627,9 @@ footer {
   height: 100%;
 }
 
+/* =============
+    Contact
+============= */
 #contact {
   position: fixed;
   top: 0;
@@ -759,4 +768,28 @@ footer {
 #what > div #need ul li .need-title h2 {
   font-weight: 500;
   font-size: 1.5625rem;
+}
+
+/* =============
+    Who
+============= */
+#who {
+  text-align: center;
+  padding: 100px 0;
+}
+#who #percent {
+  background-color: var(--blue);
+  padding: 24px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+#who #percent h1 {
+  color: var(--white);
+  font-size: 4.375rem;
+  font-weight: 700;
 }
