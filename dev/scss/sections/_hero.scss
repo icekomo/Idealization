@@ -1,17 +1,33 @@
 #hero{
-    background-image: url("../img/hero/hero.jpg");
+    background-image: url("../img/hero/hero-1.png");
     height: 100vh;
     width: 100%;
     background-size: cover;
-    background-position: center;
-    background-color: $white;
+    background-position: right center;
+    background-color: var(--black);
 
     display: flex;
     justify-content: center;
     align-items: center;
 
     >div{
-        border: 1px solid red;
+        text-align: center;
+
+        h2{
+            font-weight: 400;
+            font-size: rem-calc(20);
+            color: var(--white);
+        }
+        
+        h1{
+            font-size: rem-calc(40);
+            color: var(--white);
+        }
+
+        #dreams{
+            font-family: 'Sacramento', cursive;
+            font-size: rem-calc(90);
+        }
     }
 
 }

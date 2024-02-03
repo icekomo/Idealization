@@ -8,7 +8,6 @@ body{
 h1{
     font-weight: 300;
     color: $blue;
-    // margin-bottom: 40px;
 }
 
 
@@ -20,4 +19,8 @@ h1,h2,h3,h4{
 p{
     margin: 0;
     padding: 0;
+}
+
+.content-title{
+    margin-bottom: 16px;
 }

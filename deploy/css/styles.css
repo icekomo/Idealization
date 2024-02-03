@@ -20,6 +20,8 @@ html {
   --light-gray: #F5F5F5;
   --dark-gray: #646363;
   --red: #ef233c;
+  --blue: #00b4d8;
+  --dark-blue: #017f98;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -382,6 +384,10 @@ p {
   padding: 0;
 }
 
+.content-title {
+  margin-bottom: 16px;
+}
+
 /* =============
     Buttons
 ============= */
@@ -389,6 +395,7 @@ button {
   border: none;
   background-color: transparent;
   padding: 0;
+  cursor: pointer;
 }
 
 /* =============
@@ -457,7 +464,7 @@ header > div #contact-container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  border-left: 1px solid #333;
+  border-left: 1px solid #252525;
 }
 header > div #contact-container svg {
   width: 35px;
@@ -466,19 +473,37 @@ header > div #contact-container svg {
 /* =============
     Footer
 ============= */
+footer {
+  padding: 50px;
+  text-align: center;
+}
+
 #hero {
-  background-image: url("../img/hero/hero.jpg");
+  background-image: url("../img/hero/hero-1.png");
   height: 100vh;
   width: 100%;
   background-size: cover;
-  background-position: center;
-  background-color: #fff;
+  background-position: right center;
+  background-color: var(--black);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 #hero > div {
-  border: 1px solid red;
+  text-align: center;
+}
+#hero > div h2 {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: var(--white);
+}
+#hero > div h1 {
+  font-size: 2.5rem;
+  color: var(--white);
+}
+#hero > div #dreams {
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
 }
 
 #gallery {
@@ -613,7 +638,7 @@ header > div #contact-container svg {
   padding: 5px 15px 15px;
   border-radius: 10px;
   color: #0D242B;
-  width: 80%;
+  width: 70%;
 }
 @media (min-width: 768px) {
   #contact .white-bg {
@@ -639,9 +664,13 @@ header > div #contact-container svg {
   display: flex;
   justify-content: flex-end;
   margin-left: auto;
+  position: relative;
 }
 #contact .white-bg #contact-top-bar #close-container .contact-btn {
-  width: 25px;
+  width: 30px;
+  position: absolute;
+  right: -25px;
+  top: -35px;
 }
 #contact .white-bg #contact-top-bar #close-container .contact-btn svg {
   width: 100%;
@@ -651,23 +680,83 @@ header > div #contact-container svg {
 }
 #contact .white-bg #contact-options {
   display: grid;
-  grid-template-columns: 50% auto;
-  gap: 16px;
+}
+@media (min-width: 768px) {
+  #contact .white-bg #contact-options {
+    grid-template-columns: 50% auto;
+    gap: 16px;
+  }
 }
 #contact .white-bg #contact-options button {
   border: none;
   background-color: transparent;
-  background-color: var(--dark-steel);
+  background-color: var(--blue);
   padding: 10px;
   margin-top: 16px;
   color: var(--white);
   transition: 0.25s;
   cursor: pointer;
   width: 100%;
+  font-size: 1.25rem;
+}
+@media (min-width: 768px) {
+  #contact .white-bg #contact-options button {
+    font-size: 1.125rem;
+  }
 }
 #contact .white-bg #contact-options button:hover {
-  background-color: var(--dark-gray);
+  background-color: var(--dark-blue);
 }
 #contact .white-bg #contact-options button i {
   margin-right: 10px;
+}
+
+/* =============
+    What
+============= */
+#what {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". what .";
+}
+@media (min-width: 1024px) {
+  #what {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#what > div {
+  grid-area: what;
+}
+#what > div #need ul {
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  #what > div #need ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+#what > div #need ul li {
+  background-color: var(--light-gray);
+  padding: 24px;
+  border-radius: 4px;
+}
+#what > div #need ul li .need-title {
+  display: flex;
+  margin-bottom: 8px;
+}
+#what > div #need ul li .need-title div {
+  background-color: var(--dark-gray);
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+}
+#what > div #need ul li .need-title h2 {
+  font-weight: 500;
+  font-size: 1.5625rem;
 }

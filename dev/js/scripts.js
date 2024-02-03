@@ -44,12 +44,24 @@ for(let i = 0; i<contactBtn.length; i ++){
     });
 }
 
+let contact = document.querySelector("#contact");
 
-// let contactBG = document.querySelector(".white-bg");
-// contactBG.addEventListener("click",()=>{
-//         contactTL.reverse();
-//             canSeeContact = false;
-// })
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == contact) {
+    //   modal.style.display = "none";
+    contactTL.reverse();
+            canSeeContact = false;
+    }
+  }
+
+
+// let contactBG = document.querySelector("#contact-bg");
+// contactBG.addEventListener("click",function(){
+//     console.log("fade")
+//     contactTL.reverse();
+//     canSeeContact = false;
+// });
 
 
 

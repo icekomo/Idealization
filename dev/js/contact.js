@@ -2,7 +2,7 @@ import { gsap } from "gsap";
 
 let contact = document.querySelector("#contact");
 let contactHeight = contact.offsetHeight;
-// gsap.set(contact,{zIndex: -1});
+gsap.set("#contact-bg",{alpha:0, zIndex:-1});
 // console.log(contactHeight);
 
 let header = document.querySelector("header");

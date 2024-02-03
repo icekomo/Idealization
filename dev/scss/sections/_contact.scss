@@ -17,7 +17,7 @@
         padding: 5px 15px 15px;
         border-radius: 10px;
         color: #0D242B;
-        width: 80%;
+        width: 70%;
 
         @include md{
             width: 50%;
@@ -40,9 +40,13 @@
                 display: flex;
                 justify-content: flex-end;
                 margin-left: auto;
+                position: relative;
 
                 .contact-btn{
-                    width: 25px;
+                    width: 30px;
+                    position: absolute;
+                    right: -25px;
+                    top: -35px;
 
                     svg{
                         width: 100%;
@@ -57,23 +61,32 @@
         #contact-options{
 
             display: grid;
-            grid-template-columns: 50% auto;
-            gap: 16px;
+
+
+            @include md{
+                grid-template-columns: 50% auto;
+                gap: 16px;
+            }
 
             button{
                 border: none;
                 background-color: transparent;
-                background-color: var(--dark-steel);
+                // background-color: var(--dark-steel);
+                background-color: var(--blue);
                 padding: 10px;
                 margin-top: 16px;
                 color:var(--white);
                 transition: 0.25s;
                 cursor: pointer;
                 width: 100%;
-                // margin: 16px;
+                font-size: rem-calc(20);
+
+                @include md{
+                    font-size: rem-calc(18);
+                }
 
                 &:hover{
-                    background-color: var(--dark-gray);
+                    background-color: var(--dark-blue);
                 }
 
                 i{
@@ -83,3 +96,13 @@
         }
     }
 }
+
+// #contact-bg{
+//     height: 100%;
+//     width: 100vw;
+//     background-color: rgba(0,0,0,0.55);
+//     position: fixed;
+//     // z-index: 900;
+//     // display: none;
+//     cursor: pointer;
+// }
