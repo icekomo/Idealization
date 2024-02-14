@@ -36,7 +36,7 @@ header {
         #mode-container{
             // border: 1px solid red;
             display: flex;
-            justify-content: flex-start;
+            justify-content: flex-end;
             align-items: center;
 
             
@@ -54,7 +54,7 @@ header {
             display: flex;
             justify-content: center;
             align-items: center;
-            // border-left: 1px solid $charcoal;
+            border-left: 1px solid var(--charcoal);
             svg{
                 width: 35px;
             }

@@ -462,7 +462,7 @@ header > div #logo-container svg {
 }
 header > div #mode-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
 }
 header > div #mode-container svg {
@@ -475,6 +475,7 @@ header > div #contact-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-left: 1px solid var(--charcoal);
 }
 header > div #contact-container svg {
   width: 35px;
@@ -916,6 +917,10 @@ footer {
   background-color: var(--light-gray);
   padding: 24px;
   border-radius: 4px;
+}
+#get > div ul li h3 {
+  font-weight: 400;
+  margin-bottom: 8px;
 }
 #get > div ul li a:link {
   width: 100%;
