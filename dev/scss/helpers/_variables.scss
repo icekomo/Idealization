@@ -19,21 +19,21 @@ $screen-xl-min: 1440px;
 $screen-xxl-min: 2240px;
 
 // Colors
-$white: #fff;
-$black: #000;
-$charcoal: #252525;
-$blue: #0D242B;
+// $white: #fff;
+// $black: #000;
+// $charcoal: #252525;
+// $blue: #0D242B;
 
-$light-steel: #E7E7E7;
-$dark-steel: #CCCCCC;
+// $light-steel: #E7E7E7;
+// $dark-steel: #CCCCCC;
 
-$light-gray: #F5F5F5;
-$dark-gray: #646363;
+// $light-gray: #F5F5F5;
+// $dark-gray: #646363;
 
 :root {
     --white: #fff;
     --black: #000;
-    --charcoale: #252525;
+    --charcoal: #252525;
     --blue: #0D242B;
 
     --light-steel: #E7E7E7;
@@ -45,6 +45,7 @@ $dark-gray: #646363;
     --red: #ef233c;
 
     --blue: #00b4d8;
-    --dark-blue: #017f98;
+    // --dark-blue: #017f98;
+    --dark-blue: #0D242B;
   }
 

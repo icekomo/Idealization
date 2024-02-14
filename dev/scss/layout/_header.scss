@@ -2,7 +2,7 @@
     Header
 ============= */
 header {
-    background-color: $white;
+    background-color: var(--white);
     left: 0;
     position: fixed;
     top: 0;
@@ -16,11 +16,12 @@ header {
         grid-template-columns: auto 20% 20%;
 
         @include md{
-            grid-template-columns: auto 10% 10%;
+            grid-template-columns: auto 25% 10% 10%;
+            gap: 16px;
         }
 
         @include lg{
-            grid-template-columns: auto 5% 5%;
+            grid-template-columns: auto 25% 5%;
         }
 
         #logo-container{
@@ -51,9 +52,9 @@ header {
         #contact-container{
             // border: 1px solid red;
             display: flex;
-            justify-content: flex-end;
+            justify-content: center;
             align-items: center;
-            border-left: 1px solid $charcoal;
+            // border-left: 1px solid $charcoal;
             svg{
                 width: 35px;
             }

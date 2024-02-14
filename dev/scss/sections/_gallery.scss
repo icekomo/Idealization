@@ -30,13 +30,26 @@
             "g14 g15"
             "g16 g13"
             "g17 g17"
-            "g17 g17";
+            "g17 g17"
+            "g18 g19"
+            "g20 g21"
+            "g33 g33"
+            "g33 g33"
+            "g22 g24"
+            "g23 g23"
+            "g26 g26"
+            "g26 g26"
+            "g27 g28"
+            "g29 g30"
+            "g31 g32"
+            "g25 g25";
+
             gap:8px;
-            grid-template-rows: repeat(13, 200px);
+            grid-template-rows: repeat(25, 200px);
 
             @include md{
                 grid-template-columns: repeat(3, 1fr);
-                grid-template-rows: repeat(11, 200px);
+                grid-template-rows: repeat(19, 200px);
                 grid-template-areas: 
                     "g1 g1 g8"
                     "g1 g1 g3"
@@ -48,12 +61,20 @@
                     "g15 g15 g13"
                     "g15 g15 g14"
                     "g17 g17 g17"
-                    "g17 g17 g17";
+                    "g17 g17 g17"
+                    "g18 g19 g20"
+                    "g21 g22 g23"
+                    "g33 g33 g33"
+                    "g33 g33 g33"
+                    "g24 g25 g26"
+                    "g27 g28 g26"
+                    "g30 g31 g32"
+                    "g30 g31 g29";
             }
 
             @include lg{
                 grid-template-columns: repeat(4, 1fr);
-                grid-template-rows: repeat(9, 200px);
+                grid-template-rows: repeat(15, 200px);
                 grid-template-areas: 
                     "g1 g1 g8 g4"
                     "g1 g1 g3 g5"
@@ -63,14 +84,20 @@
                     "g15 g15 g15 g12"
                     "g15 g15 g15 g12"
                     "g13 g17 g17 g17"
-                    "g14 g17 g17 g17";
+                    "g14 g17 g17 g17"
+                    "g18 g19 g20 g23"
+                    "g33 g33 g33 g21"
+                    "g33 g33 g33 g22"
+                    "g24 g25 g26 g26"
+                    "g27 g28 g26 g26"
+                    "g30 g31 g32 g29";
             }
 
             li{
                 background-size: cover;
                 background-position: center;
                 height: 100%;
-                background-color: $black;
+                background-color: var(--black);
 
                 &:nth-child(1){
                     grid-area: g1;
@@ -79,12 +106,12 @@
 
                 &:nth-child(2){
                     grid-area: g2;
-                    background-image: url('../img/gallery/gallery-2.jpg')
+                    background-image: url('../img/gallery/gallery-2.png')
                 }
 
                 &:nth-child(3){
                     grid-area: g3;
-                    background-image: url('../img/gallery/gallery-3.jpg')
+                    background-image: url('../img/gallery/gallery-3.png')
                 }
 
                 &:nth-child(4){
@@ -94,7 +121,7 @@
 
                 &:nth-child(5){
                     grid-area: g5;
-                    background-image: url('../img/gallery/gallery-5.jpg')
+                    background-image: url('../img/gallery/gallery-5.png')
                 }
 
                 &:nth-child(6){
@@ -154,8 +181,89 @@
 
                 &:nth-child(17){
                     grid-area: g17;
+                    background-image: url('../img/gallery/gallery-17.png')
+                }
+
+                &:nth-child(18){
+                    grid-area: g18;
+                    background-image: url('../img/gallery/gallery-18.png')
+                }
+
+                &:nth-child(19){
+                    grid-area: g19;
+                    background-image: url('../img/gallery/gallery-19.png')
+                }
+
+                &:nth-child(20){
+                    grid-area: g20;
+                    background-image: url('../img/gallery/gallery-20.png');
+                }
+
+                &:nth-child(21){
+                    grid-area: g21;
+                    background-image: url('../img/gallery/gallery-21.png');
+                }
+
+                &:nth-child(22){
+                    grid-area: g22;
+                    background-image: url('../img/gallery/gallery-22.png');
+                }
+
+                &:nth-child(23){
+                    grid-area: g23;
+                    background-image: url('../img/gallery/gallery-23.png');
+                }
+
+                &:nth-child(24){
+                    grid-area: g24;
+                    background-image: url('../img/gallery/gallery-24.png');
+                }
+
+                &:nth-child(25){
+                    grid-area: g25;
+                    background-image: url('../img/gallery/gallery-25.png');
+                }
+
+                &:nth-child(26){
+                    grid-area: g26;
+                    background-image: url('../img/gallery/gallery-26.png');
+                }
+
+                &:nth-child(27){
+                    grid-area: g27;
+                    background-image: url('../img/gallery/gallery-27.png');
+                }
+
+                &:nth-child(28){
+                    grid-area: g28;
+                    background-image: url('../img/gallery/gallery-28.png')
+                }
+
+                &:nth-child(29){
+                    grid-area: g29;
+                    background-image: url('../img/gallery/gallery-29.png')
+                }
+
+                &:nth-child(30){
+                    grid-area: g30;
+                    background-image: url('../img/gallery/gallery-30.png')
+                }
+
+                &:nth-child(31){
+                    grid-area: g31;
+                    background-image: url('../img/gallery/gallery-31.png')
+                }
+
+                &:nth-child(32){
+                    grid-area: g32;
+                    background-image: url('../img/gallery/gallery-32.png')
+                }
+
+                &:nth-child(33){
+                    grid-area: g33;
                     background-image: url('../img/hero/hero.png')
                 }
+                
 
                 a:link{
                     display: inline-block;

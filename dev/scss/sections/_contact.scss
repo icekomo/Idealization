@@ -15,7 +15,7 @@
     z-index: 1000;
 
     .white-bg{
-        background-color: $white;
+        background-color: var(--white);
         padding: 5px 15px 15px;
         border-radius: 10px;
         color: #0D242B;
