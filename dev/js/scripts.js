@@ -56,6 +56,19 @@ window.onclick = function(event) {
   }
 
 
+
+
+// var seeMorebtn = document.querySelector("#see-more-btn");
+
+// var galleryContainer = document.querySelector("#gallery-container");
+
+// seeMorebtn.addEventListener("click",e =>{
+//     console.log("height");
+//     console.log(galleryContainer.offsetHeight);
+//     galleryContainer.offsetHeight = 400;
+//     console.log(galleryContainer.offsetHeight);
+// });
+
 // let contactBG = document.querySelector("#contact-bg");
 // contactBG.addEventListener("click",function(){
 //     console.log("fade")

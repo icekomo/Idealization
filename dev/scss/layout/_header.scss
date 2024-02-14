@@ -16,7 +16,7 @@ header {
         grid-template-columns: auto 20% 20%;
 
         @include md{
-            grid-template-columns: auto 25% 10% 10%;
+            grid-template-columns: auto 10% 10%;
             gap: 16px;
         }
 

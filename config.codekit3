@@ -449,6 +449,14 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/assets\/project.psd" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/project.psd",
+      "oF" : 0
+    },
     "\/assets\/spaichingen_hill_4k.exr" : {
       "cB" : 0,
       "ft" : 8192,
@@ -940,6 +948,58 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/project\/project-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 1010450,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project\/project-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project\/project-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 1010450,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project\/project-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project\/project-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 1009285,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project\/project-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project\/project-4.jpg" : {
+      "ft" : 16384,
+      "iS" : 1010450,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project\/project-4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1020,6 +1080,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/gallery.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/get.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/get.html",
       "oF" : 0
     },
     "\/dev\/content\/hero.kit" : {
@@ -1321,6 +1389,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_gallery.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_get.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_get.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
