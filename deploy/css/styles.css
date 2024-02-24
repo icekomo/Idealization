@@ -19,7 +19,7 @@ html {
   --dark-steel: #CCCCCC;
   --light-gray: #F5F5F5;
   --dark-gray: #646363;
-  --red: #ef233c;
+  --red: #D65A31;
   --blue: #00b4d8;
   --dark-blue: #0D242B;
   --blue-card: #143641;
@@ -464,6 +464,7 @@ header > div #mode-container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-right: 24px;
 }
 header > div #mode-container svg {
   width: 40px;
@@ -497,7 +498,7 @@ footer {
   height: 100vh;
   width: 100%;
   background-size: cover;
-  background-position: right center;
+  background-position: center;
   background-color: var(--black);
   display: flex;
   justify-content: center;
@@ -508,19 +509,20 @@ footer {
   text-align: center;
   position: relative;
   z-index: 10;
+  width: 80%;
 }
-#hero > div h2 {
-  font-weight: 400;
-  font-size: 1.25rem;
-  color: var(--white);
+@media (min-width: 768px) {
+  #hero > div {
+    width: 50%;
+  }
 }
-#hero > div h1 {
-  font-size: 2.5rem;
-  color: var(--white);
+@media (min-width: 1024px) {
+  #hero > div {
+    width: 30%;
+  }
 }
-#hero > div #dreams {
-  font-family: "Sacramento", cursive;
-  font-size: 5.625rem;
+#hero > div svg {
+  width: 100%;
 }
 #hero #night-time {
   position: absolute;
@@ -528,10 +530,9 @@ footer {
   width: 100%;
   background-image: url("../img/hero/hero-2.jpg");
   background-size: cover;
-  background-position: right center;
+  background-position: center;
   z-index: 2;
 }
-
 /* =============
     Gallery
 ============= */
@@ -713,7 +714,7 @@ footer {
 }
 #gallery > div ul li:nth-child(33) {
   grid-area: g33;
-  background-image: url("../img/hero/hero.png");
+  background-image: url("../img/gallery/gallery-33.png");
 }
 #gallery > div ul li a:link {
   display: inline-block;
@@ -773,7 +774,7 @@ footer {
   width: 30px;
   position: absolute;
   right: -25px;
-  top: -35px;
+  top: -50px;
 }
 #contact .white-bg #contact-top-bar #close-container .contact-btn svg {
   width: 100%;
