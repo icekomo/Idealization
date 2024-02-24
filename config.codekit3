@@ -1021,7 +1021,7 @@
       "oAP" : "\/deploy\/img\/project\/project-3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1259,6 +1259,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/design\/jpg\/house-top.jpg" : {
+      "ft" : 16384,
+      "iS" : 532517,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/jpg\/house-top.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/design\/vfb_history\/vfbHistory_2024_02_23_08_20_10_704.vrimg" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1289,6 +1302,30 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/design\/vfb_history\/vfbHistory_2024_02_23_18_27_05_834.vrimg",
+      "oF" : 0
+    },
+    "\/design\/vfb_history\/vfbHistory_2024_02_23_20_00_40_281.vrimg" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/vfb_history\/vfbHistory_2024_02_23_20_00_40_281.vrimg",
+      "oF" : 0
+    },
+    "\/design\/vfb_history\/vfbHistory_2024_02_23_20_07_43_997.vrimg" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/vfb_history\/vfbHistory_2024_02_23_20_07_43_997.vrimg",
+      "oF" : 0
+    },
+    "\/design\/vfb_history\/vfbHistory_2024_02_23_20_08_23_682.vrimg" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/vfb_history\/vfbHistory_2024_02_23_20_08_23_682.vrimg",
       "oF" : 0
     },
     "\/dev\/content\/gallery.kit" : {
