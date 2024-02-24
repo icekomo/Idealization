@@ -25,14 +25,13 @@ header {
         }
 
         #logo-container{
-            // border: 1px solid red;
              display: flex;
              align-items: center;
             svg{
                 width: 30px;
-                border-right: 1px solid var(--charcoal);
-                padding-right: 8px;
-                margin-right: 8px;
+                border-right: 1px solid var(--dark-gray);
+                padding-right: 16px;
+                margin-right: 16px;
             }
 
             h1{
@@ -43,11 +42,10 @@ header {
         }
 
         #mode-container{
-            // border: 1px solid red;
             display: flex;
             justify-content: flex-end;
             align-items: center;
-            margin-right: 24px;
+            margin-right: 16px;
             
             svg{
                 width: 40px;
@@ -59,84 +57,13 @@ header {
         }
 
         #contact-container{
-            // border: 1px solid red;
             display: flex;
             justify-content: center;
             align-items: center;
-            border-left: 1px solid var(--charcoal);
+            border-left: 1px solid var(--dark-gray);
             svg{
                 width: 35px;
             }
         }
     }
-
-    // #logo-container {
-    //     padding: 0px 0 0px 0px;
-    //     display: flex;
-    //     align-items: center;
-
-    //     svg {
-    //         height: 30px;
-
-    //         @include lg {
-    //             height: 40px;
-    //         }
-    //     }
-    // }
-
-    // aside {
-    //     padding: 10px 0;
-
-    //     >div {
-    //         display: grid;
-    //         grid-template-columns: auto 20%;
-    //         height: 100%;
-    //         width: 100%;
-
-    //         #mode-container {
-    //             align-items: center;
-    //             cursor: pointer;
-    //             display: flex;
-    //             justify-content: flex-end;
-    //             text-align: center;
-    //             padding-right: 16px;
-
-    //             svg {
-    //                 width: 40px;
-    //             }
-
-    //             ul {
-    //                 display: flex;
-    //                 justify-content: center;
-    //                 width: 100%;
-
-    //                 li {
-    //                     border: 1px solid transparent;
-    //                     display: flex;
-    //                     font-size: rem-calc(11);
-    //                     overflow: hidden;
-    //                     width: 10px;
-
-    //                     div {
-    //                         border: 1px solid transparent;
-    //                         font-family: 'Nova Mono', monospace;
-    //                         width: 100%;
-
-    //                         &.dark {
-    //                             color: $charcoal;
-    //                         }
-
-    //                         &.light {
-    //                             color: $white;
-    //                         }
-    //                     }
-    //                 }
-
-    //                 #last-letter {
-    //                     display: none;
-    //                 }
-    //             }
-    //         } 
-    //     }
-    // }
 }

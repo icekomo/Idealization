@@ -19,35 +19,22 @@ $screen-xl-min: 1440px;
 $screen-xxl-min: 2240px;
 
 // Colors
-// $white: #fff;
-// $black: #000;
-// $charcoal: #222831;
-// $blue: #0D242B;
-
-// $light-steel: #E7E7E7;
-// $dark-steel: #CCCCCC;
-
-// $light-gray: #F5F5F5;
-// $dark-gray: #646363;
-
 :root {
     --white: #fff;
-    --black: #000;
-    --charcoal: #222831;
-    --blue: #0D242B;
+    --dark-gray: #222831;
 
-    --light-steel: #E7E7E7;
-    --dark-steel: #CCCCCC;
-    
     --light-gray: #F5F5F5;
-    --dark-gray: #646363;
+    --gray: #2F3947;
 
     --red: #D65A31;
 
     --blue: #00b4d8;
-    // --dark-blue: #017f98;
-    --dark-blue: #0D242B;
+    --dark-blue: #017f98;
 
-    --blue-card: #143641;
+     --black: #000;
+     // --charcoal: #222831;
+    // --blue: #0D242B;
+    // --light-steel: #E7E7E7;
+    // --dark-steel: #CCCCCC;
   }
 

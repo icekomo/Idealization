@@ -46,12 +46,8 @@
             }
 
             @include lg{
-                width: 50%;
+                width: 85%;
                 margin: 48px auto;
-            }
-
-            @include xl{
-                width: 50%;
             }
             
 
@@ -66,7 +62,7 @@
                 }
 
                 @include xl{
-                    font-size: rem-calc(35);
+                    font-size: rem-calc(33);
                 }
             }
         }

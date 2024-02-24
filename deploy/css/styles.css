@@ -12,17 +12,13 @@ html {
 ============= */
 :root {
   --white: #fff;
-  --black: #000;
-  --charcoal: #222831;
-  --blue: #0D242B;
-  --light-steel: #E7E7E7;
-  --dark-steel: #CCCCCC;
+  --dark-gray: #222831;
   --light-gray: #F5F5F5;
-  --dark-gray: #646363;
+  --gray: #2F3947;
   --red: #D65A31;
   --blue: #00b4d8;
-  --dark-blue: #0D242B;
-  --blue-card: #143641;
+  --dark-blue: #017f98;
+  --black: #000;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -372,11 +368,12 @@ ul li {
 ============= */
 body {
   font-family: "Open Sans", sans-serif;
+  color: var(--dark-gray);
 }
 
 h1 {
   font-weight: 300;
-  color: var(--dark-blue);
+  color: var(--dark-gray);
 }
 
 h1, h2, h3, h4 {
@@ -463,9 +460,9 @@ header > div #logo-container {
 }
 header > div #logo-container svg {
   width: 30px;
-  border-right: 1px solid var(--charcoal);
-  padding-right: 8px;
-  margin-right: 8px;
+  border-right: 1px solid var(--dark-gray);
+  padding-right: 16px;
+  margin-right: 16px;
 }
 header > div #logo-container h1 {
   font-size: 1rem;
@@ -475,7 +472,7 @@ header > div #mode-container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 24px;
+  margin-right: 16px;
 }
 header > div #mode-container svg {
   width: 40px;
@@ -487,7 +484,7 @@ header > div #contact-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-left: 1px solid var(--charcoal);
+  border-left: 1px solid var(--dark-gray);
 }
 header > div #contact-container svg {
   width: 35px;
@@ -499,6 +496,15 @@ header > div #contact-container svg {
 footer {
   padding: 50px;
   text-align: center;
+}
+footer p {
+  padding: 0;
+  margin: 0;
+  font-size: 0.625rem;
+}
+footer h5 {
+  margin: 0;
+  padding: 0;
 }
 
 /* =============
@@ -1056,13 +1062,8 @@ footer {
 }
 @media (min-width: 1024px) {
   #welcome > div #callout {
-    width: 50%;
+    width: 85%;
     margin: 48px auto;
-  }
-}
-@media (min-width: 1440px) {
-  #welcome > div #callout {
-    width: 50%;
   }
 }
 #welcome > div #callout h2 {
@@ -1078,7 +1079,7 @@ footer {
 }
 @media (min-width: 1440px) {
   #welcome > div #callout h2 {
-    font-size: 2.1875rem;
+    font-size: 2.0625rem;
   }
 }
 #welcome > div button {
