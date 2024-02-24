@@ -58,7 +58,7 @@ window.onclick = function(event) {
 
 // Open / Copy Email
 
-let openEmailBtn = document.querySelector("#openEmailBtn");
+let openEmailBtn = document.querySelector(".openEmailBtn");
 
 openEmailBtn.addEventListener("click", function(){
     window.location.href = 'mailto:josh@gdovindesigns.com?subject=Let%20get%20Started!';
