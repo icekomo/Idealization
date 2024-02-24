@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". what .";
+    background-color: var(--light-gray);
 
     @include lg{
         grid-template-columns: auto 1200px auto;
@@ -29,7 +30,7 @@
                 }
 
                 li{
-                    background-color: var(--light-gray);
+                    background-color: var(--white);
                     padding: 24px;
                     border-radius: 4px;
 

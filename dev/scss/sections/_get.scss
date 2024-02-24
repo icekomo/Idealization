@@ -8,7 +8,7 @@
 	grid-template-areas: ". get .";
 
 	@include lg {
-		grid-template-columns: auto 1200px auto;
+		grid-template-columns: auto 1000px auto;
 	}
 
 	> div {
@@ -28,6 +28,10 @@
 
 			@include lg {
 				grid-template-columns: repeat(4, 1fr);
+			}
+
+			@include xl {
+				// grid-template-columns: repeat(2, 1fr);
 			}
 
 			li {
@@ -75,6 +79,34 @@
                     background-image: url("../img/project/project-4.jpg");
                 }
             }
+		}
+
+		#get-started{
+			text-align: center;
+
+			button{
+				border: none;
+				background-color: transparent;
+				background-color: var(--blue);
+				padding: 10px;
+				margin-top: 16px;
+				color:var(--white);
+				transition: 0.25s;
+				cursor: pointer;
+				font-size: rem-calc(20);
+	
+				@include md{
+					font-size: rem-calc(18);
+				}
+	
+				&:hover{
+					background-color: var(--dark-blue);
+				}
+	
+				i{
+					margin-right: 10px;
+				}
+			}
 		}
 	}
 }

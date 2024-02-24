@@ -6,7 +6,7 @@
     height: 100vh;
     width: 100%;
     background-size: cover;
-    background-position: center;
+    background-position: 90% center;
     background-color: var(--black);
 
     display: flex;
@@ -14,8 +14,8 @@
     align-items: center;
     position: relative;
 
-    @include md{
-        // background-position: right center;
+    @include lg{
+        background-position: right center;
     }
 
     >div{
@@ -23,7 +23,6 @@
         position: relative;
         z-index: 10;
         width: 80%;
-        // background-color: rgba($color: #000000, $alpha: 0.25);
 
         @include md{
             width: 50%;
@@ -31,32 +30,11 @@
 
         @include lg{
             width: 30%;
-        }
-
-        @include xl{
-            // width: 500px;
-        }
-        
+        }   
 
         svg{
             width: 100%;
         }
-
-        // h2{
-        //     font-weight: 400;
-        //     font-size: rem-calc(20);
-        //     color: var(--white);
-        // }
-        
-        // h1{
-        //     font-size: rem-calc(40);
-        //     color: var(--white);
-        // }
-
-        // #dreams{
-        //     font-family: 'Sacramento', cursive;
-        //     font-size: rem-calc(90);
-        // }
     }
 
     #night-time{
@@ -65,11 +43,11 @@
         width: 100%;
         background-image: url("../img/hero/hero-2.jpg");
         background-size: cover;
-        background-position: center;
+        background-position: 90% center;
         z-index: 2;
 
-        @include md{
-            // background-position: right center;
+        @include lg{
+            background-position: right center;
         }
     }
 
