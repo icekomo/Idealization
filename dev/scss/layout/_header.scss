@@ -26,9 +26,18 @@ header {
 
         #logo-container{
             // border: 1px solid red;
-
+             display: flex;
+             align-items: center;
             svg{
                 width: 30px;
+                border-right: 1px solid var(--charcoal);
+                padding-right: 8px;
+                margin-right: 8px;
+            }
+
+            h1{
+                font-size: rem-calc(16);
+                font-weight: 400;
                 
             }
         }

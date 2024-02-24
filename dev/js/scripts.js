@@ -56,81 +56,32 @@ window.onclick = function(event) {
   }
 
 
+// Open / Copy Email
 
+let openEmailBtn = document.querySelector("#openEmailBtn");
 
-// var seeMorebtn = document.querySelector("#see-more-btn");
+openEmailBtn.addEventListener("click", function(){
+    window.location.href = 'mailto:josh@gdovindesigns.com?subject=Let%20get%20Started!';
 
-// var galleryContainer = document.querySelector("#gallery-container");
-
-// seeMorebtn.addEventListener("click",e =>{
-//     console.log("height");
-//     console.log(galleryContainer.offsetHeight);
-//     galleryContainer.offsetHeight = 400;
-//     console.log(galleryContainer.offsetHeight);
-// });
-
-// let contactBG = document.querySelector("#contact-bg");
-// contactBG.addEventListener("click",function(){
-//     console.log("fade")
-//     contactTL.reverse();
-//     canSeeContact = false;
-// });
+    contactTL.reverse();
+    canSeeContact = false;
+})
 
 
 
 
+let copyEmailBtn = document.querySelector("#copyEmailBtn");
 
+copyEmailBtn.addEventListener("click",function(){
 
-// import { gsap } from "gsap";
-// import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+    var emailTxt = document.createElement("input");
+    document.body.appendChild(emailTxt);
+    emailTxt.setAttribute('value', "josh@gdovindesigns.com");
+    emailTxt.select();
+    document.execCommand('copy');
+    document.body.removeChild(emailTxt);
 
-// gsap.registerPlugin(ScrollToPlugin);
+    contactTL.reverse();
+    canSeeContact = false;
 
-// let scrollMarkers = ["#hero", "#believe","#gallery","#callout"];
-// let navButtons = document.querySelectorAll(".nav-button");
-
-// // get the height of the logo to use at the offset
-// let header = document.querySelector("#header-content");
-// let headerHeight = header.offsetHeight;
-
-
-// console.log(headerHeight);
-
-// for (const marker of navButtons) {
-//     marker.addEventListener("click", function(e){
-//         // this will tell you which button was clicked on
-//         const indexValue = [].indexOf.call(navButtons, e.target);
-//         // this will use that information of which button was clicked on and scroll to that id
-//         gsap.to(window, {duration: 1, scrollTo:{y:scrollMarkers[indexValue], offsetY:headerHeight}});
-//         // close the menu only if the menu is visible
-//         if(canSeeMenu){
-//             openCloseMenu();
-//         }
-//     });
-// }
-
-// /* -----------------------------
-//         Navigation
-//  ----------------------------- */   
-// let nav = document.querySelector("nav");
-// let canSeeMenu = false;
-
-// let burgerButton = document.querySelector("#burger-button");
-// burgerButton.addEventListener("click", openCloseMenu);
-
-// // function to handle opening and closing the menu
-// function openCloseMenu(){
-//     if(!canSeeMenu){
-//         nav.style.display = 'block';
-//         canSeeMenu = true;
-//         //remove the burger and add a close icon
-//         document.getElementById("burger-button").classList.remove('fa-bars');
-//         document.getElementById("burger-button").classList.add('fa-times-circle');
-//     }else{
-//         nav.style.display = 'none';
-//         canSeeMenu = false;
-//         //add the burger and remove a close icon
-//         document.getElementById("burger-button").classList.remove('fa-times-circle');
-//         document.getElementById("burger-button").classList.add('fa-bars');
-//     }
-// }
+})

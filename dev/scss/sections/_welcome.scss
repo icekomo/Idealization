@@ -1,0 +1,42 @@
+/* =============
+    Welcome
+============= */
+
+#welcome {
+	display: grid;
+	grid-template-columns: 16px auto 16px;
+	grid-template-areas: ". welcome .";
+
+	@include lg {
+		grid-template-columns: auto 1200px auto;
+	}
+
+	> div {
+		grid-area: welcome;
+
+        h1{
+            font-weight: 300;
+            font-size: rem-calc(30);
+            margin-bottom: 16px;
+        }
+
+        p{
+            margin-bottom: 16px;
+        }
+
+        #callout{
+            background-color: var(--light-gray);
+				padding: 24px;
+				border-radius: 4px;
+
+            h2{
+                font-weight: 300;
+                font-size: rem-calc(35);
+                margin-bottom: 16px;
+            }
+        }
+
+        
+
+    }
+}

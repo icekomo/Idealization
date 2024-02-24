@@ -457,8 +457,19 @@ header > div {
     grid-template-columns: auto 25% 5%;
   }
 }
+header > div #logo-container {
+  display: flex;
+  align-items: center;
+}
 header > div #logo-container svg {
   width: 30px;
+  border-right: 1px solid var(--charcoal);
+  padding-right: 8px;
+  margin-right: 8px;
+}
+header > div #logo-container h1 {
+  font-size: 1rem;
+  font-weight: 400;
 }
 header > div #mode-container {
   display: flex;
@@ -956,4 +967,39 @@ footer {
 }
 #get > div ul li:nth-child(4) a {
   background-image: url("../img/project/project-4.jpg");
+}
+
+/* =============
+    Welcome
+============= */
+#welcome {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". welcome .";
+}
+@media (min-width: 1024px) {
+  #welcome {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#welcome > div {
+  grid-area: welcome;
+}
+#welcome > div h1 {
+  font-weight: 300;
+  font-size: 1.875rem;
+  margin-bottom: 16px;
+}
+#welcome > div p {
+  margin-bottom: 16px;
+}
+#welcome > div #callout {
+  background-color: var(--light-gray);
+  padding: 24px;
+  border-radius: 4px;
+}
+#welcome > div #callout h2 {
+  font-weight: 300;
+  font-size: 2.1875rem;
+  margin-bottom: 16px;
 }
