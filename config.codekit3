@@ -909,11 +909,50 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/hero\/hero-1.png" : {
+    "\/deploy\/img\/hero\/hero-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 405627,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero\/hero-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero\/hero-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 183937,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero\/hero-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero\/old+\/hero-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 730733,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero\/old+\/hero-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero\/old+\/hero-1.png" : {
       "ft" : 32768,
       "iS" : 1382499,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/hero-1.png",
+      "oAP" : "\/deploy\/img\/hero\/old+\/hero-1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -922,12 +961,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/hero\/hero.jpg" : {
+    "\/deploy\/img\/hero\/old+\/hero.jpg" : {
       "ft" : 16384,
       "iS" : 1127395,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/hero.jpg",
+      "oAP" : "\/deploy\/img\/hero\/old+\/hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -935,11 +974,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/hero\/hero.png" : {
+    "\/deploy\/img\/hero\/old+\/hero.png" : {
       "ft" : 32768,
       "iS" : 1487976,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/hero.png",
+      "oAP" : "\/deploy\/img\/hero\/old+\/hero.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1019,6 +1058,45 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/design\/assets\/BackgroundTrees_Diffuse.png" : {
+      "ft" : 32768,
+      "iS" : 890272,
+      "oA" : 0,
+      "oAP" : "\/design\/assets\/BackgroundTrees_Diffuse.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/design\/assets\/BackgroundTrees_Opacity.png" : {
+      "ft" : 32768,
+      "iS" : 95690,
+      "oA" : 0,
+      "oAP" : "\/design\/assets\/BackgroundTrees_Opacity.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/design\/assets\/BackgroundTrees_Opacity1.png" : {
+      "ft" : 32768,
+      "iS" : 66203,
+      "oA" : 0,
+      "oAP" : "\/design\/assets\/BackgroundTrees_Opacity1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/design\/house.skp" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1033,6 +1111,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/design\/house~.skp",
+      "oF" : 0
+    },
+    "\/design\/house~~.skp" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/house~~.skp",
+      "oF" : 0
+    },
+    "\/design\/house~~~.skp" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/house~~~.skp",
       "oF" : 0
     },
     "\/design\/jpg\/house-1.jpg" : {
@@ -1073,6 +1167,129 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/design\/jpg\/house-4.png" : {
+      "ft" : 32768,
+      "iS" : 5455408,
+      "oA" : 0,
+      "oAP" : "\/design\/jpg\/house-4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/design\/jpg\/house-5.png" : {
+      "ft" : 32768,
+      "iS" : 3147901,
+      "oA" : 0,
+      "oAP" : "\/design\/jpg\/house-5.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/design\/jpg\/house-6.png" : {
+      "ft" : 32768,
+      "iS" : 3515410,
+      "oA" : 0,
+      "oAP" : "\/design\/jpg\/house-6.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/design\/jpg\/house-7.png" : {
+      "ft" : 32768,
+      "iS" : 3034128,
+      "oA" : 0,
+      "oAP" : "\/design\/jpg\/house-7.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/design\/jpg\/house-8.png" : {
+      "ft" : 32768,
+      "iS" : 643677,
+      "oA" : 0,
+      "oAP" : "\/design\/jpg\/house-8.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/design\/jpg\/house-9.jpg" : {
+      "ft" : 16384,
+      "iS" : 855344,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/jpg\/house-9.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/design\/jpg\/house-10.jpg" : {
+      "ft" : 16384,
+      "iS" : 734979,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/jpg\/house-10.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/design\/vfb_history\/vfbHistory_2024_02_23_08_20_10_704.vrimg" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/vfb_history\/vfbHistory_2024_02_23_08_20_10_704.vrimg",
+      "oF" : 0
+    },
+    "\/design\/vfb_history\/vfbHistory_2024_02_23_13_12_01_252.vrimg" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/vfb_history\/vfbHistory_2024_02_23_13_12_01_252.vrimg",
+      "oF" : 0
+    },
+    "\/design\/vfb_history\/vfbHistory_2024_02_23_16_02_56_888.vrimg" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/vfb_history\/vfbHistory_2024_02_23_16_02_56_888.vrimg",
+      "oF" : 0
+    },
+    "\/design\/vfb_history\/vfbHistory_2024_02_23_18_27_05_834.vrimg" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/vfb_history\/vfbHistory_2024_02_23_18_27_05_834.vrimg",
+      "oF" : 0
     },
     "\/dev\/content\/gallery.kit" : {
       "cB" : 0,

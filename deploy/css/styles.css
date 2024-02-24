@@ -493,7 +493,7 @@ footer {
     Hero
 ============= */
 #hero {
-  background-image: url("../img/hero/hero-1.png");
+  background-image: url("../img/hero/hero-1.jpg");
   height: 100vh;
   width: 100%;
   background-size: cover;
@@ -502,9 +502,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 #hero > div {
   text-align: center;
+  position: relative;
+  z-index: 10;
 }
 #hero > div h2 {
   font-weight: 400;
@@ -518,6 +521,15 @@ footer {
 #hero > div #dreams {
   font-family: "Sacramento", cursive;
   font-size: 5.625rem;
+}
+#hero #night-time {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/hero/hero-2.jpg");
+  background-size: cover;
+  background-position: right center;
+  z-index: 2;
 }
 
 /* =============
