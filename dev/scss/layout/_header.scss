@@ -25,20 +25,27 @@ header {
         }
 
         #logo-container{
-             display: flex;
-             align-items: center;
-            svg{
-                width: 30px;
-                border-right: 1px solid var(--dark-gray);
-                padding-right: 16px;
-                margin-right: 16px;
-            }
+            
 
-            h1{
-                font-size: rem-calc(16);
-                font-weight: 400;
-                
-            }
+             a:link, a:visited{
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+
+                svg{
+                    width: 30px;
+                    border-right: 1px solid var(--dark-gray);
+                    padding-right: 16px;
+                    margin-right: 16px;
+                }
+    
+                h1{
+                    font-size: rem-calc(16);
+                    font-weight: 400;
+                    
+                }
+             }
+            
         }
 
         #mode-container{

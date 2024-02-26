@@ -335,6 +335,7 @@ template {
 ============= */
 html {
   background-color: var(--white);
+  scroll-behavior: smooth;
 }
 
 figure {
@@ -454,17 +455,18 @@ header > div {
     grid-template-columns: auto 25% 5%;
   }
 }
-header > div #logo-container {
+header > div #logo-container a:link, header > div #logo-container a:visited {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
-header > div #logo-container svg {
+header > div #logo-container a:link svg, header > div #logo-container a:visited svg {
   width: 30px;
   border-right: 1px solid var(--dark-gray);
   padding-right: 16px;
   margin-right: 16px;
 }
-header > div #logo-container h1 {
+header > div #logo-container a:link h1, header > div #logo-container a:visited h1 {
   font-size: 1rem;
   font-weight: 400;
 }
@@ -505,6 +507,13 @@ footer p {
 footer h5 {
   margin: 0;
   padding: 0;
+}
+footer a:link, footer a:visited {
+  color: var(--blue);
+  text-decoration: none;
+}
+footer a:link:hover, footer a:link:active, footer a:visited:hover, footer a:visited:active {
+  color: var(--dark-blue);
 }
 
 /* =============

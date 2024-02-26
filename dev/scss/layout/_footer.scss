@@ -16,4 +16,14 @@ footer{
         padding: 0;
     }
     
+
+    a:link, a:visited{
+
+        color: var(--blue);
+        text-decoration: none;
+
+        &:hover, &:active{
+            color: var(--dark-blue);
+        }
+    }
 }
