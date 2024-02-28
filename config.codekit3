@@ -9,6 +9,22 @@
   ],
   "creatorBuild" : "34564",
   "files" : {
+    "\/assets\/~$bsite text.docx" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/~$bsite text.docx",
+      "oF" : 0
+    },
+    "\/assets\/~$email.docx" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/~$email.docx",
+      "oF" : 0
+    },
     "\/assets\/115_retaining wall stone blocks texture-seamless-hr\/115_retaining wall stone blocks texture-demo.jpg" : {
       "ft" : 16384,
       "iS" : 285391,
@@ -239,6 +255,14 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/assets\/email.docx" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/email.docx",
+      "oF" : 0
     },
     "\/assets\/envelope.svg" : {
       "ft" : 2097152,
@@ -489,6 +513,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/the_sky_is_on_fire_4k.exr",
+      "oF" : 0
+    },
+    "\/assets\/website text.docx" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/website text.docx",
       "oF" : 0
     },
     "\/deploy\/css\/styles.css" : {
