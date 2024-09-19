@@ -7,7 +7,7 @@
       "uuidString" : "72160997-58B0-422D-94BA-B62F026FD756"
     }
   ],
-  "creatorBuild" : "34564",
+  "creatorBuild" : "34576",
   "files" : {
     "\/assets\/115_retaining wall stone blocks texture-seamless-hr\/115_retaining wall stone blocks texture-demo.jpg" : {
       "ft" : 16384,
@@ -521,7 +521,7 @@
     },
     "\/deploy\/img\/gallery\/gallery-1.jpg" : {
       "ft" : 16384,
-      "iS" : 315166,
+      "iS" : 1565918,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/gallery\/gallery-1.jpg",
@@ -560,7 +560,7 @@
     },
     "\/deploy\/img\/gallery\/gallery-4.jpg" : {
       "ft" : 16384,
-      "iS" : 248886,
+      "iS" : 1271843,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/gallery\/gallery-4.jpg",
@@ -586,7 +586,7 @@
     },
     "\/deploy\/img\/gallery\/gallery-6.jpg" : {
       "ft" : 16384,
-      "iS" : 329474,
+      "iS" : 1620537,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/gallery\/gallery-6.jpg",
@@ -599,7 +599,7 @@
     },
     "\/deploy\/img\/gallery\/gallery-7.jpg" : {
       "ft" : 16384,
-      "iS" : 205321,
+      "iS" : 1188240,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/gallery\/gallery-7.jpg",
@@ -625,7 +625,7 @@
     },
     "\/deploy\/img\/gallery\/gallery-9.jpg" : {
       "ft" : 16384,
-      "iS" : 317478,
+      "iS" : 1513854,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/gallery\/gallery-9.jpg",
@@ -638,7 +638,7 @@
     },
     "\/deploy\/img\/gallery\/gallery-10.jpg" : {
       "ft" : 16384,
-      "iS" : 387413,
+      "iS" : 1918765,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/gallery\/gallery-10.jpg",
@@ -651,7 +651,7 @@
     },
     "\/deploy\/img\/gallery\/gallery-11.jpg" : {
       "ft" : 16384,
-      "iS" : 191868,
+      "iS" : 969808,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/gallery\/gallery-11.jpg",
@@ -664,7 +664,7 @@
     },
     "\/deploy\/img\/gallery\/gallery-12.jpg" : {
       "ft" : 16384,
-      "iS" : 318478,
+      "iS" : 1585458,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/gallery\/gallery-12.jpg",
@@ -677,7 +677,7 @@
     },
     "\/deploy\/img\/gallery\/gallery-13.jpg" : {
       "ft" : 16384,
-      "iS" : 224229,
+      "iS" : 915408,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/gallery\/gallery-13.jpg",
@@ -690,7 +690,7 @@
     },
     "\/deploy\/img\/gallery\/gallery-14.jpg" : {
       "ft" : 16384,
-      "iS" : 287181,
+      "iS" : 1033800,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/gallery\/gallery-14.jpg",
@@ -703,7 +703,7 @@
     },
     "\/deploy\/img\/gallery\/gallery-15.jpg" : {
       "ft" : 16384,
-      "iS" : 180877,
+      "iS" : 870739,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/gallery\/gallery-15.jpg",
@@ -716,7 +716,7 @@
     },
     "\/deploy\/img\/gallery\/gallery-16.jpg" : {
       "ft" : 16384,
-      "iS" : 417409,
+      "iS" : 1297071,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/gallery\/gallery-16.jpg",
@@ -1350,46 +1350,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/design\/vfb_history\/vfbHistory_2024_02_23_08_20_10_704.vrimg" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/design\/vfb_history\/vfbHistory_2024_02_23_08_20_10_704.vrimg",
-      "oF" : 0
-    },
-    "\/design\/vfb_history\/vfbHistory_2024_02_23_13_12_01_252.vrimg" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/design\/vfb_history\/vfbHistory_2024_02_23_13_12_01_252.vrimg",
-      "oF" : 0
-    },
-    "\/design\/vfb_history\/vfbHistory_2024_02_23_16_02_56_888.vrimg" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/design\/vfb_history\/vfbHistory_2024_02_23_16_02_56_888.vrimg",
-      "oF" : 0
-    },
-    "\/design\/vfb_history\/vfbHistory_2024_02_23_18_27_05_834.vrimg" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/design\/vfb_history\/vfbHistory_2024_02_23_18_27_05_834.vrimg",
-      "oF" : 0
-    },
-    "\/design\/vfb_history\/vfbHistory_2024_02_23_20_00_40_281.vrimg" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/design\/vfb_history\/vfbHistory_2024_02_23_20_00_40_281.vrimg",
-      "oF" : 0
-    },
     "\/design\/vfb_history\/vfbHistory_2024_02_23_20_07_43_997.vrimg" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1404,14 +1364,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/design\/vfb_history\/vfbHistory_2024_02_23_20_08_23_682.vrimg",
-      "oF" : 0
-    },
-    "\/design\/vfb_history\/vfbHistory_2024_02_23_21_21_52_405.vrimg" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/design\/vfb_history\/vfbHistory_2024_02_23_21_21_52_405.vrimg",
       "oF" : 0
     },
     "\/dev\/content\/gallery.kit" : {
