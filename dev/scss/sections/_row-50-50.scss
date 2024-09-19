@@ -1,0 +1,26 @@
+.row-50-50{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "g1 g2";
+    gap:8px;
+    grid-template-rows: 15vh;
+
+    @include lg{
+        grid-template-rows: repeat(1, 400px);
+    }
+
+    li{
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        background-color: var(--black);
+
+        &:nth-child(1){
+            grid-area: g1;
+        }
+
+        &:nth-child(2){
+            grid-area: g2;
+        }
+    }
+}

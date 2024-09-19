@@ -12,8 +12,12 @@ let cardBlue = "#393E46";
 // let cardCircle = "#1D5060";
 let cardCircle = "#EEEEEE";
 
-let nightTimeRendering = document.querySelector("#night-time");
-gsap.set(nightTimeRendering,{alpha:0});
+let nightTimeHero = document.querySelector("#night-time-hero");
+gsap.set(nightTimeHero,{alpha:0});
+
+let nightTimeRenderings = document.querySelector(".dark-mode");
+gsap.set(nightTimeRenderings,{alpha:0});
+
 
 
 export let darkModeTL = gsap.timeline({paused:true});
@@ -29,5 +33,6 @@ darkModeTL.to(":root",{duration:0.25, "--dark-gray": white},"change")
 .to(":root",{duration:0.25, "--white": darkGray},"change")
 .to(":root",{duration:0.25, "--light-gray": gray},"change")
 
-.to(nightTimeRendering,{duration:0.25, alpha:1},"change");
+.to(nightTimeHero,{duration:0.25, alpha:1},"change")
+.to(nightTimeRenderings,{duration:0.25, alpha:1},"change");
 

@@ -1,0 +1,43 @@
+.row-75-25{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "g1 g1"
+    "g2 g3";
+    gap:8px;
+    grid-template-rows: 30vh 15vh;
+
+    // @include md{
+    //     grid-template-areas: 
+    //     "g1 g1 g2 g3"
+    //     "g1 g1 g4 g5";
+    //     grid-template-columns: repeat(4, 1fr);
+    //     grid-template-rows: repeat(2, 200px);
+    // }
+
+    @include lg{
+        grid-template-areas: 
+        "g1 g1 g1 g2"
+        "g1 g1 g1 g3";
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 200px);
+    }
+
+    li{
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        background-color: var(--black);
+
+        &:nth-child(1){
+            grid-area: g1;
+        }
+
+        &:nth-child(2){
+            grid-area: g2;
+        }
+
+        &:nth-child(3){
+            grid-area: g3;
+        }
+    }
+}
