@@ -948,28 +948,28 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/gallery\/gallery-34D.jpg" : {
-      "ft" : 16384,
-      "iS" : 1926357,
-      "jF" : 0,
+    "\/deploy\/img\/gallery\/gallery-34D.png" : {
+      "ft" : 32768,
+      "iS" : 6048837,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/gallery\/gallery-34D.jpg",
+      "oAP" : "\/deploy\/img\/gallery\/gallery-34D.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/gallery\/gallery-34N.jpg" : {
-      "ft" : 16384,
-      "iS" : 1434232,
-      "jF" : 0,
+    "\/deploy\/img\/gallery\/gallery-34N.png" : {
+      "ft" : 32768,
+      "iS" : 4351095,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/gallery\/gallery-34N.jpg",
+      "oAP" : "\/deploy\/img\/gallery\/gallery-34N.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

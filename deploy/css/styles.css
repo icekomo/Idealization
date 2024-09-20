@@ -1108,8 +1108,11 @@ footer a:link:hover, footer a:link:active, footer a:visited:hover, footer a:visi
   background-image: url("../img/gallery/gallery-33.png");
 }
 
-#g34 {
-  background-image: url("../img/gallery/gallery-34D.jpg");
+#g34 .light-mode {
+  background-image: url("../img/gallery/gallery-34D.png");
+}
+#g34 .dark-mode {
+  background-image: url("../img/gallery/gallery-34N.png");
 }
 
 #g35 .light-mode {

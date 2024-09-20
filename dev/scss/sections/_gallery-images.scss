@@ -132,7 +132,13 @@
 }
 
 #g34{
-    background-image: url('../img/gallery/gallery-34D.jpg')
+    .light-mode{
+        background-image: url('../img/gallery/gallery-34D.png')
+    }
+
+    .dark-mode{
+        background-image: url('../img/gallery/gallery-34N.png')
+    }
 }
 
 #g35{
