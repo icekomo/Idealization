@@ -15,7 +15,7 @@ let cardCircle = "#EEEEEE";
 let nightTimeHero = document.querySelector("#night-time-hero");
 gsap.set(nightTimeHero,{alpha:0});
 
-let nightTimeRenderings = document.querySelector(".dark-mode");
+let nightTimeRenderings = document.querySelectorAll(".dark-mode");
 gsap.set(nightTimeRenderings,{alpha:0});
 
 

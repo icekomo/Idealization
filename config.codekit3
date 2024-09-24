@@ -7,7 +7,7 @@
       "uuidString" : "72160997-58B0-422D-94BA-B62F026FD756"
     }
   ],
-  "creatorBuild" : "34576",
+  "creatorBuild" : "34590",
   "files" : {
     "\/assets\/115_retaining wall stone blocks texture-seamless-hr\/115_retaining wall stone blocks texture-demo.jpg" : {
       "ft" : 16384,
@@ -974,28 +974,28 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/gallery\/gallery-35D.jpg" : {
-      "ft" : 16384,
-      "iS" : 2081506,
-      "jF" : 0,
+    "\/deploy\/img\/gallery\/gallery-35D.png" : {
+      "ft" : 32768,
+      "iS" : 1211978,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/gallery\/gallery-35D.jpg",
+      "oAP" : "\/deploy\/img\/gallery\/gallery-35D.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/gallery\/gallery-35N.jpg" : {
-      "ft" : 16384,
-      "iS" : 1485682,
-      "jF" : 0,
+    "\/deploy\/img\/gallery\/gallery-35N.png" : {
+      "ft" : 32768,
+      "iS" : 1347579,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/gallery\/gallery-35N.jpg",
+      "oAP" : "\/deploy\/img\/gallery\/gallery-35N.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2496,10 +2496,6 @@
         "active" : 0,
         "optionString" : "{'before': true, 'after': true, 'overrides': {}}"
       },
-      "line-comment-position" : {
-        "active" : 0,
-        "optionString" : "{'position': 'above'}"
-      },
       "linebreak-style" : {
         "active" : 0,
         "optionString" : "'unix'"
@@ -2551,10 +2547,6 @@
       "max-statements-per-line" : {
         "active" : 0,
         "optionString" : "{'max': 1}"
-      },
-      "multiline-comment-style" : {
-        "active" : 0,
-        "optionString" : "'starred-block'"
       },
       "multiline-ternary" : {
         "active" : 0,
@@ -2697,7 +2689,8 @@
         "active" : 0
       },
       "no-extra-boolean-cast" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'enforceForInnerExpressions': false}"
       },
       "no-extra-label" : {
         "active" : 0
@@ -2782,7 +2775,8 @@
         "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'allowEscape': false}"
       },
       "no-mixed-operators" : {
         "active" : 0,
@@ -3150,7 +3144,8 @@
         "active" : 0
       },
       "require-unicode-regexp" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'requireFlag': 'u'}"
       },
       "require-yield" : {
         "active" : 1
@@ -3580,6 +3575,7 @@
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
+    "tsJSXFragmentFactory" : "Fragment",
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,
