@@ -1126,6 +1126,18 @@ footer a:link:hover, footer a:link:active, footer a:visited:hover, footer a:visi
   background-image: url("../img/gallery/gallery-36.png");
 }
 
+#g37 {
+  background-image: url("../img/gallery/gallery-37.png");
+}
+
+#g38 {
+  background-image: url("../img/gallery/gallery-38.png");
+}
+
+#g39 {
+  background-image: url("../img/gallery/gallery-39.png");
+}
+
 .row-50-25-25 {
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas: "g1 g1" "g2 g3" "g4 g5";
