@@ -1,6 +1,7 @@
 /* =============
     Base
 ============= */
+@use "../helpers";
 
 html{
     background-color: var(--white);
@@ -26,7 +27,7 @@ ul {
 
 .show-for-md{
     display: none;
-    @include md{
+    @include helpers.md{
         display: block;
     }
 }

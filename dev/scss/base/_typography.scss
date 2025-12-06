@@ -1,6 +1,8 @@
 /* =============
     Typography
 ============= */
+@use "../helpers";
+
 body{
     font-family: 'Open Sans', sans-serif;
     color: var(--dark-gray);
@@ -25,7 +27,7 @@ p{
 .content-title{
     margin-bottom: 8px;
 
-    @include md{
+    @include helpers.md{
         margin-bottom: 16px;
     }
 }

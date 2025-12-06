@@ -1,6 +1,7 @@
 /* =============
     Footer
 ============= */
+@use "../helpers";
 footer{
     padding: 50px;
     text-align: center;
@@ -8,7 +9,7 @@ footer{
     p{
         padding: 0;
         margin: 0;
-        font-size: rem-calc(10);
+        font-size: helpers.rem-calc(10);
     }
 
     h5{

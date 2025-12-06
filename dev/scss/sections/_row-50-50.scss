@@ -1,3 +1,4 @@
+@use "../helpers";
 .row-50-50{
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: 
@@ -5,7 +6,7 @@
     gap:8px;
     grid-template-rows: 15vh;
 
-    @include lg{
+    @include helpers.lg{
         grid-template-rows: repeat(1, 400px);
     }
 

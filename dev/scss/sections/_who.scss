@@ -1,6 +1,7 @@
 /* =============
     Who
 ============= */
+@use "../helpers";
 #who{
     text-align: center;
     padding: 100px 0;
@@ -17,7 +18,7 @@
         margin: 0 auto;
         h1{
             color: var(--white);
-            font-size: rem-calc(70);
+            font-size: helpers.rem-calc(70);
             font-weight: 700;
         }
     }

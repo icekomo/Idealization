@@ -1,3 +1,4 @@
+@use "../helpers";
 .row-75-25{
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: 
@@ -14,7 +15,7 @@
     //     grid-template-rows: repeat(2, 200px);
     // }
 
-    @include lg{
+    @include helpers.lg{
         grid-template-areas: 
         "g1 g1 g1 g2"
         "g1 g1 g1 g3";

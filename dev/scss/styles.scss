@@ -1,37 +1,32 @@
 @charset 'utf-8';
 
-// Helpers Styles
-@import "helpers/_mixins";
-@import "helpers/_variables";
-
 // Base Styles
-@import "base/_normalize";
-@import "base/_base";
-@import "base/_typography";
+@forward "base/_normalize";
+@forward "base/_base";
+@forward "base/_typography";
 
 // Components Styles
-@import "components/_buttons";
-@import "components/_forms";
-@import "components/_navigation";
+@forward "components/_buttons";
+@forward "components/_forms";
+@forward "components/_navigation";
 
 // Layout Styles
-@import "layout/_header";
-@import "layout/_footer";
-
+@forward "layout/_header";
+@forward "layout/_footer";
 // Sections Styles
-@import "sections/_hero";
-@import "sections/_gallery";
-@import "sections/_contact";
-@import "sections/_what";
-@import "sections/_who";
-@import "sections/_get";
-@import "sections/_welcome";
-@import "sections/_gallery-images";
-@import "sections/_row-50-25-25";
-@import "sections/_row-25-25-25-25";
-@import "sections/_row-75-25";
-@import "sections/_row-50-50";
-@import "sections/_row-25-75";
-@import "sections/_row-25-25-50";
+@forward "sections/_hero";
+@forward "sections/_gallery";
+@forward "sections/_contact";
+@forward "sections/_what";
+@forward "sections/_who";
+@forward "sections/_get";
+@forward "sections/_welcome";
+@forward "sections/_gallery-images";
+@forward "sections/_row-50-25-25";
+@forward "sections/_row-25-25-25-25";
+@forward "sections/_row-75-25";
+@forward "sections/_row-50-50";
+@forward "sections/_row-25-75";
+@forward "sections/_row-25-25-50";
 
 

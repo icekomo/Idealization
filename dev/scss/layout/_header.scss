@@ -1,6 +1,8 @@
 /* =============
     Header
 ============= */
+@use "../helpers";
+
 header {
     background-color: var(--white);
     left: 0;
@@ -15,12 +17,12 @@ header {
         display: grid;
         grid-template-columns: auto 20% 20%;
 
-        @include md{
+        @include helpers.md{
             grid-template-columns: auto 10% 10%;
             gap: 16px;
         }
 
-        @include lg{
+        @include helpers.lg{
             grid-template-columns: auto 25% 5%;
         }
 
@@ -40,7 +42,7 @@ header {
                 }
     
                 h1{
-                    font-size: rem-calc(16);
+                    font-size: helpers.rem-calc(16);
                     font-weight: 400;
                     
                 }
