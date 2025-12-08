@@ -5,6 +5,9 @@ import { darkModeTL } from "./darkMode.js";
 import { contactTL } from "./contact.js";
 
 
+document.addEventListener('DOMContentLoaded', function() {
+
+
 let darkMode = false;
 let darkBtn = document.querySelector("#mode-btn");
 darkBtn.addEventListener("click",function(){
@@ -85,3 +88,5 @@ copyEmailBtn.addEventListener("click",function(){
     canSeeContact = false;
 
 })
+
+});
